@@ -1,2 +1,3 @@
 # Protein-Conformation-Ontology
-The Protein Conformation Ontology represents protein structural conformations as dispositions.
+
+The Protein Conformation Ontology (PRC) aims create a comprehensive ontological representation of protein conformations including secondary, tertiary, and quaternary structures. Our goal is to formally define and describe the conformations of proteins including those that adopt alternate conformations based on changing environmental conditions. Because proteins have the potential to take on different conformations based on a wide range of conditions in their environment, we represent protein conformations as subclasses of the Basic Formal Ontology ‘disposition’ class.
