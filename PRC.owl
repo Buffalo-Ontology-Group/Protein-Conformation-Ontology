@@ -1748,6 +1748,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
+        <obo:IAO_0000115>A protein conformation of the voltage-gated sodium channed subunit alpha that is realized in the arrangement of protein domain and secondary structure elements.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T21:13:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformation</rdfs:label>
