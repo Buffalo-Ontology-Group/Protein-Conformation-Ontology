@@ -345,7 +345,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
-        <obo:IAO_0000115>A protein secondary structure involving two peptides with beta strand conformation with an alpha helix folded over to bind a zinc ion.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein secondary structure conformation that is realized by two peptides with beta strand conformation and an alpha helix folded over to bind a zinc ion.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.chemeurope.com/en/encyclopedia/Structural_motif.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T22:00:30Z</dc:date>
@@ -679,7 +679,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
-        <obo:IAO_0000115>A protein secondary structure formed by five consecutive residues and two hydrogen bonds in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3) , the main-chain CO group of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein secondary structure conformation that is realized by five consecutive residues and two hydrogen bonds in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3) , the main-chain CO group of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).</obo:IAO_0000115>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001126</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:25:58Z</dc:date>
@@ -693,7 +693,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
-        <obo:IAO_0000115>A protein secondary structure formed by four or five consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain OH of residue(i) is H-bonded to the main-chain CO of residue(i3) or (i4), Phi angles of residues(i1), (i2) and (i3) are negative.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein secondary structure conformation that is realized by four or five consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain OH of residue(i) is H-bonded to the main-chain CO of residue(i3) or (i4), Phi angles of residues(i1), (i2) and (i3) are negative.</obo:IAO_0000115>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001127</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:26:14Z</dc:date>
