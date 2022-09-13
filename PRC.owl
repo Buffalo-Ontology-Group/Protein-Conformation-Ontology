@@ -1295,7 +1295,7 @@
         <obo:IAO_0000119>https://journals.physiology.org/doi/full/10.1152/physrev.00024.2004?rfr_dat=cr_pub++0pubmed&amp;url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:12:19Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 non-depolarized conformation</rdfs:label>
+        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 polarized conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1790,6 +1790,27 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_polarized_form -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_polarized_form">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000113"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:08:16Z</dc:date>
