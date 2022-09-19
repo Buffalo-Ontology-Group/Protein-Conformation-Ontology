@@ -1963,7 +1963,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:36Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_2_depolarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 depolarized form</rdfs:label>
     </owl:Class>
     
 
@@ -1995,7 +1995,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:49Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_2_polarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 polarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2027,7 +2027,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:18Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_3_polarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 polarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2059,7 +2059,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:24Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_4_polarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 polarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2091,7 +2091,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:34Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_3_depolarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 depolarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2123,7 +2123,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:41Z</dc:date>
-        <rdfs:label xml:lang="en">voltage-gated_sodium_channel_domain_4_depolarized_form</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 depolarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2155,6 +2155,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:07:15Z</dc:date>
+        <rdfs:label>voltage-gated sodium channel domain 1 depolarized form</rdfs:label>
     </owl:Class>
     
 
@@ -2186,6 +2187,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:08:16Z</dc:date>
+        <rdfs:label>voltage-gated sodium channel domain 1 polarized form</rdfs:label>
     </owl:Class>
     
 
