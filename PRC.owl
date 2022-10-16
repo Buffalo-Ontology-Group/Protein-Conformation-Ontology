@@ -2128,6 +2128,122 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>A biological process that results in a change in the spatial configuration of a macromolecule.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:22:11Z</dc:date>
+        <rdfs:label xml:lang="en">macromolecular conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000124"/>
+        <obo:IAO_0000115>A macromolecular conformational change that results in a change in the spatial configuration of a protein.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:22:46Z</dc:date>
+        <rdfs:label xml:lang="en">protein conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+        <obo:IAO_0000115>A protein conformational change that results in a change in the spatial configuration of an individual protein subunit.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:23:07Z</dc:date>
+        <rdfs:label xml:lang="en">protein subunit conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126"/>
+        <obo:IAO_0000115>A protein subunit conformational change that results in a change in the spatial configuration of a protein secondary structure element.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:23:27Z</dc:date>
+        <rdfs:label xml:lang="en">protein secondary structure conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127"/>
+        <obo:IAO_0000115>A protein secondary structure conformational change that results in a rotation along the long axis of an alpha helix secondary structure element.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:23:46Z</dc:date>
+        <rdfs:label xml:lang="en">alpha helix rotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000128"/>
+        <obo:IAO_0000115>An alpha helix rotation involving an amphipathic helix.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:24:05Z</dc:date>
+        <rdfs:label xml:lang="en">amphipathic helix rotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000129"/>
+        <obo:IAO_0000115>An amphipathic helix rotation involving the voltage-sensing sodium ion channel alpha helix 4.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:24:23Z</dc:date>
+        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 rotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+        <obo:IAO_0000115>A protein conformational change that results in a change in the spatial configuration of a protein containing complex. This could include a change in protein subunits relative to one another or a change internal to one or more of the subunits.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:24:49Z</dc:date>
+        <rdfs:label xml:lang="en">protein-containing complex conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116"/>
+        <obo:IAO_0000115>A right handed protein helix that is formed when each backbone N-H group hydrogen bonds to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:29:31Z</dc:date>
+        <rdfs:label xml:lang="en">alpha helix</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form">
