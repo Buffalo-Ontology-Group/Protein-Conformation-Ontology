@@ -1546,7 +1546,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000101"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001975"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
                         <owl:someValuesFrom>
@@ -1568,65 +1568,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000122"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000123"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1651,6 +1611,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A portion of an amino acid chain that is self-stabilizing and can fold independently to the rest of the amino acid chain.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:51:36Z</dc:date>
@@ -1742,7 +1708,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000111"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001975"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
                         <owl:someValuesFrom>
@@ -1764,65 +1730,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000122"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000123"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1838,7 +1764,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000112"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001975"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
                         <owl:someValuesFrom>
@@ -1860,65 +1786,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000120"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_polarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1954,6 +1840,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A portion of an amino acid chain that has realized a protein secondary structure conformation.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T18:06:22Z</dc:date>
@@ -2209,8 +2101,8 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000135"/>
-        <obo:IAO_0000115>A protein domain conformational change that results in a change in the spatial configuration of a protein secondary structure element.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126"/>
+        <obo:IAO_0000115>A protein subunit conformational change that results in a change in the spatial configuration of a protein secondary structure element.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:23:27Z</dc:date>
@@ -2320,7 +2212,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6164224/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-25T23:07:24Z</dc:date>
-        <rdfs:label xml:lang="en">amphipathic helix</rdfs:label>
+        <rdfs:label xml:lang="en">amphipathic alpha helix</rdfs:label>
     </owl:Class>
     
 
@@ -2389,7 +2281,7 @@
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000135"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083"/>
