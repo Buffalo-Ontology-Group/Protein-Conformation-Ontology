@@ -119,7 +119,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001975">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000044660"/>
         <obo:IAO_0000115>A voltage-gated sodium channel protein that has a core architecture consisting of four similar domains (I-VI), each containing six transmembrane helices (S1-S6), with a pore loop between S5 and S6. The S4 segments contain positively charged amino acids at every third position and serve as voltage sensors. These large proteins (about 2000 amino acids) contain a unique Sodium ion transport-associated domain (Pfam:PF06512) located between two pairs of Ion transport protein domains (Pfam:PF00520). An IQ calmodulin-binding motif (Pfam:PF00612) may be found about 100 amino acids from the carboxyl end.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:11:54Z</dc:date>
         <rdfs:label>voltage-gated sodium channel subunit alpha</rdfs:label>
     </owl:Class>
@@ -131,7 +130,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000044628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000049983"/>
         <obo:IAO_0000115>An ion channel protein that has voltage-gated ion channel activity. A voltage-gated ion channel enables the transmembrane transfer of a solute by a channel whose open state is dependent on the voltage across the membrane in which it is embedded.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:10:31Z</dc:date>
         <rdfs:label>voltage-gated ion channel protein</rdfs:label>
     </owl:Class>
@@ -143,7 +141,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000044660">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000044628"/>
         <obo:IAO_0000115>A voltage-gated ion channel protein that has voltage-gated sodium channel activity. A voltage-gated sodium channel enables the transmembrane transfer of a sodium ion by a voltage-gated channel. A voltage-gated channel is a channel whose open state is dependent on the voltage across the membrane in which it is embedded.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:11:02Z</dc:date>
         <rdfs:label>voltage-gated sodium channel protein</rdfs:label>
     </owl:Class>
@@ -155,7 +152,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000049983">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000044676"/>
         <obo:IAO_0000115>A channel protein that has ion channel activity. An ion channel enables the facilitated diffusion of an ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:09:45Z</dc:date>
         <rdfs:label>ion channel protein</rdfs:label>
     </owl:Class>
@@ -167,7 +163,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR:000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
         <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T17:55:45Z</dc:date>
         <rdfs:label>protein</rdfs:label>
     </owl:Class>
@@ -179,7 +174,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR:000014522/">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000000001"/>
         <obo:IAO_0000115>A protein that is a translation product of the human SCN1B gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:14:17Z</dc:date>
         <rdfs:label>sodium channel subunit beta-1</rdfs:label>
     </owl:Class>
@@ -191,7 +185,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR:000018263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115>An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T17:53:37Z</dc:date>
         <rdfs:label xml:lang="en">amino acid chain</rdfs:label>
     </owl:Class>
@@ -203,7 +196,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR:000044676">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000000001"/>
         <obo:IAO_0000115>A protein that has channel activity. Channel proteins enable energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel.</obo:IAO_0000115>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T17:56:33Z</dc:date>
         <rdfs:label>channel protein</rdfs:label>
     </owl:Class>
@@ -1640,6 +1632,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:16Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 1</rdfs:label>
@@ -1651,6 +1644,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:19Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2</rdfs:label>
@@ -1662,6 +1656,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:23Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3</rdfs:label>
@@ -1673,6 +1668,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:27Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4</rdfs:label>
@@ -1892,6 +1888,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:36Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 depolarized form</rdfs:label>
@@ -1924,6 +1921,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:49Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 polarized form</rdfs:label>
@@ -1956,6 +1954,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:18Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 polarized form</rdfs:label>
@@ -1988,6 +1987,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:24Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 polarized form</rdfs:label>
@@ -2020,6 +2020,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:34Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 depolarized form</rdfs:label>
@@ -2052,6 +2053,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:41Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 depolarized form</rdfs:label>
@@ -2294,6 +2296,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:07:15Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 depolarized form</rdfs:label>
@@ -2326,6 +2329,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:08:16Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 polarized form</rdfs:label>
