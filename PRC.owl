@@ -17,6 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/PRC.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-07/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2022-02-07/ro.owl"/>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
@@ -111,6 +112,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -1632,7 +1654,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is found in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:16Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 1</rdfs:label>
@@ -1644,7 +1666,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is found in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:19Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2</rdfs:label>
@@ -1656,7 +1678,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is found in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:23Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3</rdfs:label>
@@ -1668,7 +1690,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain that is created in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain that is found in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:52:27Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4</rdfs:label>
@@ -1888,7 +1910,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a rotated alpha helix 4 leading to an open channel pore and is found in a cell with a depolarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:36Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 depolarized form</rdfs:label>
@@ -1921,7 +1943,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000106"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 2 that has a non-rotated alpha helix 4 leading to a closed channel pore and is found in a cell with a polarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:05:49Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 2 polarized form</rdfs:label>
@@ -1954,7 +1976,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a non-rotated alpha helix 4 leading to a closed channel pore and is found in a cell with a polarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:18Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 polarized form</rdfs:label>
@@ -1987,7 +2009,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a non-rotated alpha helix 4 leading to a closed channel pore and is found in a cell with a polarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:24Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 polarized form</rdfs:label>
@@ -2020,7 +2042,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000107"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 3 that has a rotated alpha helix 4 leading to an open channel pore and is found in a cell with a depolarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:34Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 3 depolarized form</rdfs:label>
@@ -2053,7 +2075,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000108"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 4 that has a rotated alpha helix 4 leading to an open channel pore and is found in a cell with a depolarized membrane potential.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-18T17:08:41Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain 4 depolarized form</rdfs:label>
@@ -2271,6 +2293,54 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000137">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0001518"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001975"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000014522/"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001518"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-09T22:24:34Z</dc:date>
+        <rdfs:label xml:lang="en">human voltage-gated sodium channel complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000138">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001518"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-09T22:40:54Z</dc:date>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel complex conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form">
@@ -2296,7 +2366,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a depolarized memebrane potential and an outwardly rotated alpha helix 4 that leads to an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a rotated alpha helix 4 leading to an open channel pore and is found in a cell with a depolarized membrane potential.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:07:15Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 depolarized form</rdfs:label>
@@ -2329,7 +2399,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a polarized memebrane potential and an non-rotated alpha helix 4 leading to a closed channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a non-rotated alpha helix 4 leading to a closed channel pore and is found in a cell with a polarized membrane potential.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:08:16Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 polarized form</rdfs:label>
