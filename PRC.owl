@@ -1290,7 +1290,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:04:10Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 1 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 1 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1305,7 +1305,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:04:46Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 2 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 2 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1320,7 +1320,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:05:19Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 3 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 3 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1335,7 +1335,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:06:51Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 4 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1344,11 +1344,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
-        <obo:IAO_0000115>A sodium ion channel alpha-segment 4 conformation that is rezlied by an outward rotation that enables an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 conformation that is rezlied by an outward rotation that enables an open channel pore.</obo:IAO_0000115>
         <obo:IAO_0000119>https://journals.physiology.org/doi/full/10.1152/physrev.00024.2004?rfr_dat=cr_pub++0pubmed&amp;url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:11:36Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 depolarized conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 4 depolarized conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1357,11 +1357,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
-        <obo:IAO_0000115>A sodium ion channel alpha-segment 4 that is the resting conformation and that is realized by the inward rotation and closure of the channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 that is the resting conformation and that is realized by the inward rotation and closure of the channel pore.</obo:IAO_0000115>
         <obo:IAO_0000119>https://journals.physiology.org/doi/full/10.1152/physrev.00024.2004?rfr_dat=cr_pub++0pubmed&amp;url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:12:19Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4 polarized conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 4 polarized conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1376,7 +1376,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:14:48Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 5 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 5 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1391,7 +1391,7 @@
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:14:57Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 6 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 6 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1404,7 +1404,7 @@
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-215</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:17:21Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel inactivation gate conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1443,7 +1443,7 @@
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:23:45Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha subunit domain conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1452,11 +1452,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
-        <obo:IAO_0000115>A sodium ion channel alpha subunit domain conformation that inheres in the amino acids that occur in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:26Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha subunit domain 1 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 1 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1465,11 +1465,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
-        <obo:IAO_0000115>A sodium ion channel alpha subunit domain conformation that inheres in the amino acids that occur in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:38Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha subunit domain 2 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 2 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1478,11 +1478,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
-        <obo:IAO_0000115>A sodium ion channel alpha subunit domain conformation that inheres in the amino acids that occur in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:42Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha subunit domain 3 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 3 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1491,11 +1491,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
-        <obo:IAO_0000115>A sodium ion channel alpha subunit domain conformation that inheres in the amino acids that occur in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
         <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:45Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha subunit domain 4 conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 4 conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1523,7 +1523,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:13Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel extracellular loop conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel extracellular loop conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1536,7 +1536,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:33Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel intracellular loop conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel intracellular loop conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1545,11 +1545,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000097"/>
-        <obo:IAO_0000115>A sodium ion channel intracellular loop conformation that is realized by the polypeptide chain that connects the alpha segment 5 to alpha segment 6 to create a pore-forming module.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel intracellular loop conformation that is realized by the polypeptide chain that connects the alpha segment 5 to alpha segment 6 to create a pore-forming module.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:48Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel P loop conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel P loop conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1569,7 +1569,7 @@
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000102"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -1603,6 +1603,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha in which the channel pore is open and there is movement of sodium ions across the cell membrane.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:38:35Z</dc:date>
         <rdfs:label xml:lang="en">open and activated voltage-gated sodium channel subunit alpha</rdfs:label>
@@ -1643,6 +1644,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000103"/>
+        <obo:IAO_0000115>A protein domain found in the voltage-gated sodium channel subunit alpha.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:51:51Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain</rdfs:label>
@@ -1704,7 +1706,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:15Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel P loop open conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel P loop open conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1715,7 +1717,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:22Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel P loop closed conformation</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel P loop closed conformation</rdfs:label>
     </owl:Class>
     
 
@@ -1735,7 +1737,7 @@
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000114"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -1769,6 +1771,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha in which the channel pore is open yet there is no movement of sodium ions. THis is due to the closure of the sodium ion channel inactivation gate.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-30T20:10:42Z</dc:date>
         <rdfs:label xml:lang="en">open and inactivated voltage-gated sodium channel subunit alpha</rdfs:label>
@@ -1791,7 +1794,7 @@
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000115"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -1825,6 +1828,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_polarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha in which the channel pore is closed and there is no movement of sodium ions.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-30T20:11:06Z</dc:date>
         <rdfs:label xml:lang="en">closed voltage-gated sodium channel subunit alpha</rdfs:label>
@@ -2194,13 +2198,20 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2220,13 +2231,20 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000136"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000132"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000136"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2247,13 +2265,20 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000133"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
