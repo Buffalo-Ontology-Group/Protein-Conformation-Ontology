@@ -136,6 +136,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0086010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0086010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:31:34Z</dc:date>
+        <rdfs:label xml:lang="en">membrane depolarization during action potential</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001975 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001975">
@@ -220,6 +231,28 @@
         <obo:IAO_0000115>A protein that has channel activity. Channel proteins enable energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T17:56:33Z</dc:date>
         <rdfs:label>channel protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR:000050567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR:000050567">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity that minimally consists of a protein.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T23:01:23Z</dc:date>
+        <rdfs:label xml:lang="en">protein-containing material entity</rdfs:label>
     </owl:Class>
     
 
@@ -1344,7 +1377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 conformation that is rezlied by an outward rotation that enables an open channel pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 conformation that is realized by an outward rotation that enables an open channel pore.</obo:IAO_0000115>
         <obo:IAO_0000119>https://journals.physiology.org/doi/full/10.1152/physrev.00024.2004?rfr_dat=cr_pub++0pubmed&amp;url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:11:36Z</dc:date>
@@ -1771,7 +1804,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/voltage-gated_sodium_channel_domain_1_depolarized_form"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha in which the channel pore is open yet there is no movement of sodium ions. THis is due to the closure of the sodium ion channel inactivation gate.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha in which the channel pore is open yet there is no movement of sodium ions. This is due to the closure of the sodium ion channel inactivation gate.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-30T20:10:42Z</dc:date>
         <rdfs:label xml:lang="en">open and inactivated voltage-gated sodium channel subunit alpha</rdfs:label>
@@ -2091,11 +2124,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>A biological process that results in a change in the spatial configuration of a macromolecule.</obo:IAO_0000115>
+        <obo:IAO_0000115>A biological process that results in a change in the spatial configuration of a molecule or complex of molecules.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:22:11Z</dc:date>
-        <rdfs:label xml:lang="en">macromolecular conformational change</rdfs:label>
+        <rdfs:label xml:lang="en">conformational change</rdfs:label>
     </owl:Class>
     
 
@@ -2104,11 +2137,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000124"/>
-        <obo:IAO_0000115>A macromolecular conformational change that results in a change in the spatial configuration of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000115>A molecular conformational change that results in a change in the spatial configuration of a protein-containing material entity.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:22:46Z</dc:date>
-        <rdfs:label xml:lang="en">protein conformational change</rdfs:label>
+        <rdfs:label xml:lang="en">protein-containing material entity conformational change</rdfs:label>
     </owl:Class>
     
 
@@ -2117,7 +2150,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
-        <obo:IAO_0000115>A protein conformational change that results in a change in the spatial configuration of an individual protein subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein-containing material entity conformational change that results in a change in the spatial configuration of an individual protein subunit.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:23:07Z</dc:date>
@@ -2183,7 +2216,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000125"/>
-        <obo:IAO_0000115>A protein conformational change that results in a change in the spatial configuration of a protein containing complex. This could include a change in protein subunits relative to one another or a change internal to one or more of the subunits.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein-containing material entity conformational change that results in a change in the spatial configuration of a protein containing complex. This could include a change in protein subunits relative to one another or a change internal to one or more of the subunits.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:24:49Z</dc:date>
@@ -2362,6 +2395,44 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-09T22:40:54Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel complex conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000139">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000130"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0086010"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes a closed conformation to an open and activated conformation and involves a sodium ion channel alpha helix 4 rotation and happens during membrane depolarization during action potential.</obo:IAO_0000115>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:25:37Z</dc:date>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from closed to open and activated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:54:04Z</dc:date>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change</rdfs:label>
     </owl:Class>
     
 
