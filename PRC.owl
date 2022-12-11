@@ -140,6 +140,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0086010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which membrane potential changes in the depolarizing direction from the negative resting potential towards the positive membrane potential that will be the peak of the action potential.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:31:34Z</dc:date>
         <rdfs:label xml:lang="en">membrane depolarization during action potential</rdfs:label>
@@ -187,6 +188,18 @@
         <obo:IAO_0000115>A channel protein that has ion channel activity. An ion channel enables the facilitated diffusion of an ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-07T23:09:45Z</dc:date>
         <rdfs:label>ion channel protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO:0086011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO:0086011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>The process in which ions are transported across a membrane such that the membrane potential changes in the direction from the positive membrane potential at the peak of the action potential towards the negative resting potential.</obo:IAO_0000115>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-11T19:06:06Z</dc:date>
+        <rdfs:label xml:lang="en">membrane repolarization during action potential</rdfs:label>
     </owl:Class>
     
 
@@ -2429,7 +2442,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
-        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes a closed conformation to an open and activated conformation and involves a sodium ion channel alpha helix 4 rotation and happens during membrane depolarization during action potential.</obo:IAO_0000115>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes a closed conformation to an open and activated conformation and involves a sodium ion channel alpha helix 4 outward rotation and happens during membrane depolarization during action potential.</obo:IAO_0000115>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:25:37Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from closed to open and activated</rdfs:label>
@@ -2444,6 +2457,56 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:54:04Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000143">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000130"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes an open and activated conformation to an open and inactivated conformation and involves the closure of the sodium ion channel inactivation gate.</obo:IAO_0000115>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-11T18:56:54Z</dc:date>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from open and activated to open and inactivated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000144">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000130"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO:0086011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
+        <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes an open and inactivated conformation to a closed conformation and involves a sodium ion channel alpha helix 4 inward rotation and happens during membrane repolarization.</obo:IAO_0000115>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-11T19:01:53Z</dc:date>
+        <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from open and inactivated to closed</rdfs:label>
     </owl:Class>
     
 
