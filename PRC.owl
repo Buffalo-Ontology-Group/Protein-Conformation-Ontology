@@ -275,6 +275,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115>A disposition that inheres in molecules and involves the particular spatial arrangement of atoms.</obo:IAO_0000115>
+        <obo:IAO_0000119>Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 4th edition. New York: Garland Science; 2002. The Shape and Structure of Proteins. Available from: https://www.ncbi.nlm.nih.gov/books/NBK26830/</obo:IAO_0000119>
         <dc:contributor>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:contributor>
         <rdfs:label xml:lang="en">molecular conformation</rdfs:label>
     </owl:Class>
@@ -286,6 +287,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000000"/>
         <obo:IAO_0000115>A molecular conformation disposition that inheres in protein containing entities and involves the particular spatial arrangement of atoms, amino acids, and domains within the protein containing entity.</obo:IAO_0000115>
+        <obo:IAO_0000119>Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 4th edition. New York: Garland Science; 2002. The Shape and Structure of Proteins. Available from: https://www.ncbi.nlm.nih.gov/books/NBK26830/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -299,7 +301,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
         <obo:IAO_0000115>A protein conformation that is realized in the formation of hydrogen bonds between the partially negative oxygen atom and partially positive nitrogen atom in the polypeptide backbone of amino acids and the specific 3-dimensional structure that results.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK470235/</obo:IAO_0000119>
+        <obo:IAO_0000119>Rehman I, Farooq M, Botelho S. Biochemistry, Secondary Protein Structure. [Updated 2021 Dec 15]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK470235/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -314,6 +316,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by the formation of at least two backbone hydrogen bonds between two polypeptides regions in the beta strand conformation, resulting in a generally twisted pleated sheet</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 31306512</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -393,7 +396,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two parallel peptides with beta strand conformation creating a linking loop and forming a right-handed twist due to chirality.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://www.cryst.bbk.ac.uk/PPS95/course/6_super_sec/super5.html#:~:text=This%20motif%20%20is%20called%20the%20beta-alpha-beta%20motif,%20secondary%20structure%20interact%20forming%20a%20hydrophobic%20core.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID: 19347908</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:30:48Z</dc:date>
         <rdfs:label xml:lang="en">beta-alpha-beta motif conformation</rdfs:label>
@@ -406,6 +409,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two or more antiparallel peptides with beta strand conformation linking together by hairpin loops.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 34699112</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.cryst.bbk.ac.uk/PPS2/course/section9/sss/super2.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:31:24Z</dc:date>
@@ -497,6 +501,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by five consecutive residues and two H-bonds in which: Residue(i) is Aspartate or Asparagine (Asx), side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3), main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 10064721</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001106</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:10:56Z</dc:date>
@@ -511,6 +516,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by three residues within a beta-sheet in which the main chains of two consecutive residues are H-bonded to that of the third, and in which the dihedral angles are as follows: Residue(i): -140 degrees &lt; phi(l) -20 degrees , -90 degrees &lt; psi(l) &lt; 40 degrees. Residue (i+1): -180 degrees &lt; phi &lt; -25 degrees or +120 degrees &lt; phi &lt; +180 degrees, +40 degrees &lt; psi &lt; +180 degrees or -180 degrees &lt; psi &lt; -120 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 11567097</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001107</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:14:33Z</dc:date>
@@ -525,9 +531,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by three residues within a beta-sheet consisting of two H-bonds. Beta bulge loops often occur at the loop ends of beta-hairpins.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001108</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:14:48Z</dc:date>
+        <oboInOwl:hasExactSynonym>type G1 beta bulge conformation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">beta bulge loop conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001108</skos:closematch>
     </owl:Class>
@@ -539,10 +547,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020"/>
         <obo:IAO_0000115>A beta bulge loop conformation that is realized by: the main-chain NH of residue(i) H-bonded to the main-chain CO of residue(i+4), the main-chain CO of residue i H-bonded to the main-chain NH of residue(i+3), these loops have an RL nest at residues i+2 and i+3.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001109</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:15:16Z</dc:date>
-        <rdfs:label xml:lang="en">beta bulge loop conformation five</rdfs:label>
+        <oboInOwl:hasExactSynonym>beta bulge loop conformation five</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">beta bulge loop type 1 conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001109</skos:closematch>
     </owl:Class>
     
@@ -553,10 +563,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020"/>
         <obo:IAO_0000115>A beta bulge loop conformation that is realized by: the main-chain NH of residue(i) H-bonded to the main-chain CO of residue(i+5), the main-chain CO of residue i H-bonded to the main-chain NH of residue(i+4), these loops have an RL nest at residues i+3 and i+4.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001110</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:15:46Z</dc:date>
-        <rdfs:label xml:lang="en">beta bulge loop conformation six</rdfs:label>
+        <oboInOwl:hasExactSynonym>beta bulge loop conformation six</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">beta bulge loop type 2 conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001110</skos:closematch>
     </owl:Class>
     
@@ -568,6 +580,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is reazlied by a single continuous stretch of amino acids that adopts an extended conformation of hydrogen bonds between the N-O and the C=O of another part of the peptide. This forms a secondary protein structure in which two or more extended polypeptide regions are hydrogen-bonded to one another in a planar array.</obo:IAO_0000115>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001111</obo:IAO_0000119>
+        <obo:IAO_0000119>https://comis.med.uvm.edu/vic/coursefiles/MD540/MD540-Protein_Organization_10400_574581210/Protein-org/Protein_Organization4.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:16:10Z</dc:date>
         <rdfs:label xml:lang="en">beta strand conformation</rdfs:label>
@@ -1221,20 +1234,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
-        <obo:IAO_0000115>A protein secondary structure conformation that is realized by five consecutive residues and two H-bonds in which: H-bond between CO of residue(i) and NH of residue(i+4), H-bond between CO of residue(i) and NH of residue(i+3),Phi angles of residues(i+1), (i+2) and (i+3) are negative.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0100008</obo:IAO_0000119>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:37:25Z</dc:date>
-        <rdfs:label xml:lang="en">alpha beta motif conformation</rdfs:label>
-        <skos:closematch>http://purl.obolibrary.org/obo/SO_0100008</skos:closematch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000071">
@@ -1551,7 +1550,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by a polypeptide region of the protein connecting two polypeptide regions of the protein that are internal to the membrane.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628373/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID: 23638343</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1566,7 +1565,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095"/>
         <obo:IAO_0000115>An extramembrane loop conformation conformation that is realized by the portion of the sodium ion channel polypeptide chain that appears on the outside of the cell.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:13Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel extracellular loop conformation</rdfs:label>
@@ -1579,7 +1578,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095"/>
         <obo:IAO_0000115>An extramembrane loop conformation that is realized by the polypeptide chain that links the four homologus domains of the alpha-subunit within the cytoplasm of the cell.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:33Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel intracellular loop conformation</rdfs:label>
@@ -1592,7 +1591,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000097"/>
         <obo:IAO_0000115>A voltage-gated sodium channel intracellular loop conformation that is realized by the polypeptide chain that connects the alpha segment 5 to alpha segment 6 to create a pore-forming module.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424717/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:48Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop conformation</rdfs:label>
@@ -1762,6 +1761,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
+        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop closed conformation</rdfs:label>
