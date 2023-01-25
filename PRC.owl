@@ -473,12 +473,10 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
-        <obo:IAO_0000115>A protein secondary structure conformation that is realized by the formation of an anion-binding cavity by three amino acid residues.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:24710286</obo:IAO_0000119>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T22:01:03Z</dc:date>
-        <rdfs:label xml:lang="en">nest motif conformation</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duplicate term</rdfs:comment>
+        <rdfs:label xml:lang="en">DEPRECATED nest motif conformation</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000033"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -547,7 +545,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020"/>
         <obo:IAO_0000115>A beta bulge loop conformation that is realized by: the main-chain NH of residue(i) H-bonded to the main-chain CO of residue(i+4), the main-chain CO of residue i H-bonded to the main-chain NH of residue(i+3), these loops have an RL nest at residues i+2 and i+3.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001109</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:15:16Z</dc:date>
@@ -555,6 +553,12 @@
         <rdfs:label xml:lang="en">beta bulge loop type 1 conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001109</skos:closematch>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>beta bulge loop conformation five</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/SO_0001109</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -563,7 +567,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020"/>
         <obo:IAO_0000115>A beta bulge loop conformation that is realized by: the main-chain NH of residue(i) H-bonded to the main-chain CO of residue(i+5), the main-chain CO of residue i H-bonded to the main-chain NH of residue(i+4), these loops have an RL nest at residues i+3 and i+4.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001110</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:15:46Z</dc:date>
@@ -571,6 +575,12 @@
         <rdfs:label xml:lang="en">beta bulge loop type 2 conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001110</skos:closematch>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>beta bulge loop conformation six</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/SO_0001110</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -679,7 +689,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028"/>
         <obo:IAO_0000115>A right handed protein helix conformation that is realized by 4.1 residues per turn and a translation of 1.15 (=0.115 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid five residues earlier.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 35722863</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001118</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:22:19Z</dc:date>
@@ -694,7 +704,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028"/>
         <obo:IAO_0000115>A right handed protein helix conformation that is realized by 3 residues per turn with a translation of 2.0 angstroms (=0.2 nm) along the helical axis. The N-H group of an amino acid forms a hydrogen bond with the C=O group of the amino acid three residues earlier.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 35722863</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001119</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:22:39Z</dc:date>
@@ -724,6 +734,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two consecutive residues with dihedral angles. Nest should not have Proline as any residue. Nests frequently occur as parts of other motifs such as Schellman loops.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:24710286</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001120</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:23:52Z</dc:date>
@@ -741,9 +752,16 @@
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001121</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:24:10Z</dc:date>
+        <oboInOwl:hasExactSynonym>polypeptide LR nest motif conformation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">polypeptide nest left right motif conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001121</skos:closematch>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>polypeptide LR nest motif conformation</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24710286</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -755,9 +773,16 @@
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001122</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:24:25Z</dc:date>
+        <oboInOwl:hasExactSynonym>polypeptide RL nest motif conformation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">polypeptide nest right left motif conformation</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001122</skos:closematch>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>polypeptide RL nest motif conformation</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24710286</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1419,7 +1444,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is realized by the fifth part of an alpha-subunit domain and that contains a re-entrant loop that is also part of sodium ion channel alpha-segment 6 that creates a narrow, ion-selective filter.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1434,7 +1459,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is realized by the last part of an alpha-subunit domain and that contains a re-entrant loop that is also part of sodium ion channel alpha-segment 5 that creates a narrow, ion-selective filter.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1449,7 +1474,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A rigid alpha helical structure that is realized by a sodium ion channel alpha helix conformation and is preceded by two turns that position the IFM motif.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:17:21Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate conformation</rdfs:label>
