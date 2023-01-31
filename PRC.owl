@@ -316,7 +316,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by the formation of at least two backbone hydrogen bonds between two polypeptides regions in the beta strand conformation, resulting in a generally twisted pleated sheet</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 31306512</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:31306512</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -396,7 +396,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two parallel peptides with beta strand conformation creating a linking loop and forming a right-handed twist due to chirality.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 19347908</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:19347908</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:30:48Z</dc:date>
         <rdfs:label xml:lang="en">beta-alpha-beta motif conformation</rdfs:label>
@@ -409,7 +409,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two or more antiparallel peptides with beta strand conformation linking together by hairpin loops.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 34699112</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:34699112</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.cryst.bbk.ac.uk/PPS2/course/section9/sss/super2.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:31:24Z</dc:date>
@@ -462,6 +462,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by two peptides with beta strand conformation and an alpha helix folded over to bind a zinc ion.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:11104519</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.chemeurope.com/en/encyclopedia/Structural_motif.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T22:00:30Z</dc:date>
@@ -499,7 +500,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by five consecutive residues and two H-bonds in which: Residue(i) is Aspartate or Asparagine (Asx), side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3), main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 10064721</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:10064721</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001106</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:10:56Z</dc:date>
@@ -514,7 +515,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by three residues within a beta-sheet in which the main chains of two consecutive residues are H-bonded to that of the third, and in which the dihedral angles are as follows: Residue(i): -140 degrees &lt; phi(l) -20 degrees , -90 degrees &lt; psi(l) &lt; 40 degrees. Residue (i+1): -180 degrees &lt; phi &lt; -25 degrees or +120 degrees &lt; phi &lt; +180 degrees, +40 degrees &lt; psi &lt; +180 degrees or -180 degrees &lt; psi &lt; -120 degrees.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 11567097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:11567097</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001107</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:14:33Z</dc:date>
@@ -529,7 +530,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by three residues within a beta-sheet consisting of two H-bonds. Beta bulge loops often occur at the loop ends of beta-hairpins.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 8251933</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:8251933</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001108</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:14:48Z</dc:date>
@@ -676,7 +677,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028"/>
         <obo:IAO_0000115>A right handed protein helix conformation that is reazlied by each backbone N-H group hydrogen bonded to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 35722863</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:21:07Z</dc:date>
         <rdfs:label xml:lang="en">alpha helix conformation</rdfs:label>
@@ -719,7 +720,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
         <obo:IAO_0000115>A protein helix conformation that is realized by a protein secondary structure element that traverses the lipid bilayer and adopts a helical secondary structure.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 29447916</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29447916</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001812</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:23:10Z</dc:date>
@@ -791,6 +792,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by six or seven consecutive residues that contains two H-bonds.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:7643384</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001123</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:24:50Z</dc:date>
@@ -805,6 +807,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000036"/>
         <obo:IAO_0000115>The wild type schellmann loop confromation that is conformation that is realized by a motif of seven consecutive residues that contain two H-bonds in which: the main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+6), the main-chain CO of residue(i+1) is H-bonded to the main-chain NH of residue(i+5).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:7643384</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001124</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:25:08Z</dc:date>
@@ -819,6 +822,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000036"/>
         <obo:IAO_0000115>The common type schellmann loop conformation that is realized by a motif of six consecutive residues that contain two H-bonds in which: the main-chain CO of residue(i) is H-bonded to the main-chain NH of residue(i+5) the main-chain CO of residue(i+1) is H-bonded to the main-chain NH of residue(i+4).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:7643384</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001125</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:25:25Z</dc:date>
@@ -833,6 +837,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by five consecutive residues and two hydrogen bonds in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2) or (i+3) , the main-chain CO group of residue(i) is H-bonded to the main-chain NH of residue(i+3) or (i+4).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:10064721</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001126</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:25:58Z</dc:date>
@@ -847,6 +852,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by four or five consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain OH of residue(i) is H-bonded to the main-chain CO of residue(i3) or (i4), Phi angles of residues(i1), (i2) and (i3) are negative.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:6427470</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001127</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:26:14Z</dc:date>
@@ -875,6 +881,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000041"/>
         <obo:IAO_0000115>A protein turn motif conformation that is realized by three consecutive residues and one H-bond in which: residue(i) is Aspartate or Asparagine (Asx), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0000912</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:26:52Z</dc:date>
@@ -889,6 +896,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000042"/>
         <obo:IAO_0000115>An asx turn conformation that is realized by the following measurements: Residue(i): -140 degrees &lt; chi (1) -120 degrees &lt; -20 degrees, -90 degrees &lt; psi +120 degrees &lt; +40 degrees. Residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, -90 degrees &lt; psi &lt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001129</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:28:02Z</dc:date>
@@ -903,6 +911,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000042"/>
         <obo:IAO_0000115>An asx turn conformation that is realized by the following measurements: Residue(i): -140 degrees &lt; chi (1) -120 degrees &lt; -20 degrees, +80 degrees &lt; psi +120 degrees &lt; +180 degrees. Residue(i+1): +20 degrees &lt; phi &lt; +140 degrees, -40 degrees &lt; psi &lt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001130</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:28:21Z</dc:date>
@@ -917,6 +926,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000042"/>
         <obo:IAO_0000115>An asx turn conformation that is realized by the following measurements: Residue(i): -140 degrees &lt; chi (1) -120 degrees &lt; -20 degrees, +80 degrees &lt; psi +120 degrees &lt; +180 degrees. Residue(i+1): +20 degrees &lt; phi &lt; +140 degrees, -40 degrees &lt; psi &lt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001131</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:28:37Z</dc:date>
@@ -931,6 +941,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000042"/>
         <obo:IAO_0000115>An asx turn conformation that is realized by the following measurements: Residue(i): -140 degrees &lt; chi (1) -120 degrees &lt; -20 degrees, -90 degrees &lt; psi +120 degrees &lt; +40 degrees. Residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, -90 degrees &lt; psi &lt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001132</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:29:04Z</dc:date>
@@ -945,6 +956,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000041"/>
         <obo:IAO_0000115>A protein turn motif conformation that is realized by four consecutive residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth. It is characterized by the dihedral angles of the second and third residues, which are the basis for sub-categorization.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001133</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:29:23Z</dc:date>
@@ -959,6 +971,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by the following measurements: Residue(i+1): -140 degrees &gt; phi &gt; -20 degrees, -90 degrees &gt; psi &gt; +40 degrees. Residue(i+2): -140 degrees &gt; phi &gt; -20 degrees, -90 degrees &gt; psi &gt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001134</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:29:48Z</dc:date>
@@ -973,10 +986,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by the following measurements: Residue(i+1): -140 degrees &gt; phi &gt; -20 degrees, +80 degrees &gt; psi &gt; +180 degrees. Residue(i+2): +20 degrees &gt; phi &gt; +140 degrees, -40 degrees &gt; psi &gt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001135</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:30:10Z</dc:date>
-        <rdfs:label xml:lang="en">beta turn confromation left handed type two</rdfs:label>
+        <rdfs:label xml:lang="en">beta turn conformation left handed type two</rdfs:label>
         <skos:closematch>http://purl.obolibrary.org/obo/SO_0001135</skos:closematch>
     </owl:Class>
     
@@ -987,6 +1001,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by the following measurements: Residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, -90 degrees &lt; psi &lt; +40 degrees. Residue(i+2): -140 degrees &lt; phi &lt; -20 degrees, -90 degrees &lt; psi &lt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001136</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:30:27Z</dc:date>
@@ -1001,6 +1016,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by the following measurements:  Residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, +80 degrees &lt; psi &lt; +180 degrees. Residue(i+2): +20 degrees &lt; phi &lt; +140 degrees, -40 degrees &lt; psi &lt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001137</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:30:41Z</dc:date>
@@ -1015,6 +1031,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by four consecutive peptide resides of type VIa or type VIb and where the i+2 residue is cis-proline.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001150</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:31:02Z</dc:date>
@@ -1029,6 +1046,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000052"/>
         <obo:IAO_0000115>A beta turn conformation type six that is realized by the following measurements: Residue(i+1): phi ; -60 degrees, psi ; 120 degrees. Residue(i+2): phi ; -90 degrees, psi ; 0 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001151</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:31:19Z</dc:date>
@@ -1043,6 +1061,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000053"/>
         <obo:IAO_0000115>A beta turn type six a conformation that is realized by the following phi and psi angles on amino acid residues 2 and 3: phi-2 = -60 degrees, psi-2 = 120 degrees, phi-3 = -90 degrees, psi-3 = 0 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001152</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:31:37Z</dc:date>
@@ -1057,6 +1076,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000053"/>
         <obo:IAO_0000115>A beta turn type six a conformation that is realized by the following phi and psi sngles on amino acid residues 2 and 3: phi-2 = -120 degrees, psi-2 = 120 degrees, phi-3 = -60 degrees, psi-3 = 0 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001153</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:31:57Z</dc:date>
@@ -1071,6 +1091,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000052"/>
         <obo:IAO_0000115>A beta turn conformation type six that is realized by a motif of four consecutive peptide residues, of which the i+2 residue is proline, and that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth and is characterized by the dihedral angles: Residue(i+1): phi ; -120 degrees, psi ; 120 degrees. Residue(i+2): phi ; -60 degrees, psi ; 0 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001154</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:32:16Z</dc:date>
@@ -1085,6 +1106,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000047"/>
         <obo:IAO_0000115>A beta turn conformation that is realized by a motif of four consecutive peptide residues that may contain one H-bond, which, if present, is between the main-chain CO of the first residue and the main-chain NH of the fourth and is characterized by the dihedral angles: Residue(i+1): phi ; -60 degrees, psi ; -30 degrees. Residue(i+2): phi ; -120 degrees, psi ; 120 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:3184187</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001155</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:32:36Z</dc:date>
@@ -1099,6 +1121,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000041"/>
         <obo:IAO_0000115>A protein turn motif conformation that is realized by 3 residues i,( i+1),( i+2) and a hydrogen bond exists between residues i and i+2 and the phi and psi angles of residue i+1 fall within 40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:2254936</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001138</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:32:59Z</dc:date>
@@ -1113,6 +1136,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000058"/>
         <obo:IAO_0000115>A gamma turn conformation that is realized by the following measurements: phi(i+1)=75.0 - psi(i+1)=-64.0.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:2254936</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001139</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:34:00Z</dc:date>
@@ -1127,6 +1151,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000058"/>
         <obo:IAO_0000115>A gamma turn conformation that is realized by the following measurements:: phi(i+1)=-79.0 - psi(i+1)=69.0.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:2254936</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001140</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:34:17Z</dc:date>
@@ -1141,6 +1166,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000041"/>
         <obo:IAO_0000115>A protein turn motif conformation that is realized by three consecutive residues and one H-bond in which: residue(i) is Serine (S) or Threonine (T), the side-chain O of residue(i) is H-bonded to the main-chain NH of residue(i+2).</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001141</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:34:33Z</dc:date>
@@ -1155,6 +1181,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000061"/>
         <obo:IAO_0000115>A serine threonine turn conformation that is realized by a peptide twisting in an anticlockwise, left handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees &lt; chi(1) -120 degrees &lt; -20 degrees, -90 degrees psi +120 degrees &lt; +40 degrees, residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, -90 &lt; psi &lt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001142</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:34:49Z</dc:date>
@@ -1169,6 +1196,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000061"/>
         <obo:IAO_0000115>A serine threonine turn conformation that is realized by a peptide twisting in an anticlockwise, left handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees &lt; chi(1) -120 degrees &lt; -20 degrees, +80 degrees psi +120 degrees &lt; +180 degrees, residue(i+1): +20 degrees &lt; phi &lt; +140 degrees, -40 &lt; psi &lt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001143</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:35:04Z</dc:date>
@@ -1183,6 +1211,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000061"/>
         <obo:IAO_0000115>A serine threonine turn conformation that is realized by a peptide twisting in an clockwise, right handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees &lt; chi(1) -120 degrees &lt; -20 degrees, -90 degrees psi +120 degrees &lt; +40 degrees, residue(i+1): -140 degrees &lt; phi &lt; -20 degrees, -90 &lt; psi &lt; +40 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001144</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:35:21Z</dc:date>
@@ -1197,6 +1226,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000061"/>
         <obo:IAO_0000115>A serine threonine turn conformation that is realized by a peptide twisting in an clockwise, right handed manner. The dihedral angles for this turn are: Residue(i): -140 degrees &lt; chi(1) -120 degrees &lt; -20 degrees, +80 degrees psi +120 degrees &lt; +180 degrees, residue(i+1): +20 degrees &lt; phi &lt; +140 degrees, -40 &lt; psi &lt; +90 degrees.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:15459339</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001145</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:35:37Z</dc:date>
@@ -1267,7 +1297,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by a secondary structure elemnet in which there are no nonlocal interactions between residues in the amino acid chain.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.cell.com/foldes/pdf/S1359-0278(96)00046-6.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:9080177</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:42:27Z</dc:date>
         <rdfs:label xml:lang="en">random coil conformation</rdfs:label>
@@ -1306,7 +1336,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
         <obo:IAO_0000115>A protein helix conformation that is realized by alpha-helices coiled together like the strands of a rope.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 17030805</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:17030805</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T22:45:32Z</dc:date>
         <rdfs:label xml:lang="en">coiled coil confromation</rdfs:label>
@@ -1358,7 +1388,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is realized by the first part of an alpha-subunit domain.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1373,7 +1403,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is realized by the second part of an alpha-subunit domain.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1388,7 +1418,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is reazlied by the third part of an alpha-subunit domain.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1403,7 +1433,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029"/>
         <obo:IAO_0000115>A transmembrane spanning alpha-helix conformation that is realized by the polypeptide chain that occurs in the fourth part of the longer polypeptide chain in which inheres an alpha-subunit domain, and whose associated polypeptide chain contains positively charged residues in every third position in order to create a voltage sensor.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 12620097</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1418,7 +1448,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 conformation that is realized by an outward rotation that enables an open channel pore.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 16183913</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:16183913</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:11:36Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 4 depolarized conformation</rdfs:label>
@@ -1431,7 +1461,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000082"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha helix 4 that is the resting conformation and that is realized by the inward rotation and closure of the channel pore.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 16183913</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:16183913</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:12:19Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha helix 4 polarized conformation</rdfs:label>
@@ -1500,6 +1530,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000088"/>
         <obo:IAO_0000115>A protein tertiary structure conformation that inheres in a portion of an amino acid chain and that is realized in the folding of that portion of an amino acid chain independently of the rest of the amino acid chain that results in a locally maximal structure.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 7020376</obo:IAO_0000119>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Protein_domain</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:20:36Z</dc:date>
@@ -1513,7 +1544,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000089"/>
         <obo:IAO_0000115>A protein domain conformation that is realized in the folding of the alpha subunit of an sodium ion channel protein complex into a domain that contains six transmembrane alpha-helices and the loops that connect them.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:23:45Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain conformation</rdfs:label>
@@ -1526,7 +1557,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the first part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:26Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 1 conformation</rdfs:label>
@@ -1539,7 +1570,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the second part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:38Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 2 conformation</rdfs:label>
@@ -1552,7 +1583,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the third part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:42Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 3 conformation</rdfs:label>
@@ -1565,7 +1596,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000090"/>
         <obo:IAO_0000115>A voltage-gated sodium channel alpha subunit domain conformation that inheres in the amino acids that occur in the last part of a polypeptide chain of a sodium channel alpha subunit.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://genomebiology.biomedcentral.com/articles/10.1186/gb-2003-4-3-207</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:24:45Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel alpha subunit domain 4 conformation</rdfs:label>
@@ -1578,7 +1609,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002"/>
         <obo:IAO_0000115>A protein secondary structure conformation that is realized by a polypeptide region of the protein connecting two polypeptide regions of the protein that are internal to the membrane.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 23638343</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:23638343</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1593,7 +1624,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095"/>
         <obo:IAO_0000115>An extramembrane loop conformation conformation that is realized by the portion of the sodium ion channel polypeptide chain that appears on the outside of the cell.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:13Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel extracellular loop conformation</rdfs:label>
@@ -1606,7 +1637,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000095"/>
         <obo:IAO_0000115>An extramembrane loop conformation that is realized by the polypeptide chain that links the four homologus domains of the alpha-subunit within the cytoplasm of the cell.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:33Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel intracellular loop conformation</rdfs:label>
@@ -1619,7 +1650,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000097"/>
         <obo:IAO_0000115>A voltage-gated sodium channel intracellular loop conformation that is realized by the polypeptide chain that connects the alpha segment 5 to alpha segment 6 to create a pore-forming module.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-06T15:30:48Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop conformation</rdfs:label>
@@ -1689,6 +1720,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by an open channel pore and movement of sodium ions across the cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:39:48Z</dc:date>
         <rdfs:label xml:lang="en">open and activated voltage-gated sodium channel subunit alpha conformation</rdfs:label>
@@ -1778,6 +1810,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
+        <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:15Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop open conformation</rdfs:label>
@@ -1789,7 +1822,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
-        <obo:IAO_0000119>PMID: 22473783</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop closed conformation</rdfs:label>
@@ -1916,6 +1949,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by an open channel pore and closure of the sodium ion channel inactivation gate resulting in no sodium ion movement across the membrane.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T15:17:06Z</dc:date>
         <rdfs:label xml:lang="en">open and inactivated voltage-gated sodium channel subunit alpha conformation</rdfs:label>
@@ -1928,6 +1962,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by closure of the channel pore preventing movement of sodium ions.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T15:17:16Z</dc:date>
         <rdfs:label xml:lang="en">closed voltage-gated sodium channel subunit alpha conformation</rdfs:label>
@@ -1959,6 +1994,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
         <obo:IAO_0000115>A protein conformation of the voltage-gated sodium channed subunit alpha that is realized in the arrangement of protein domain and secondary structure elements.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T21:13:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformation</rdfs:label>
@@ -2398,7 +2434,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
         <obo:IAO_0000115>A protein helix conformation that is realized by the segregation of hydrophobic and polar residues between two faces of the helix.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 29976879</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29976879</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-01T23:15:16Z</dc:date>
         <rdfs:label xml:lang="en">amphipathic helix conformation</rdfs:label>
@@ -2551,6 +2587,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000087"/>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:10:29Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate open conformation</rdfs:label>
@@ -2562,6 +2599,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000087"/>
+        <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:10:36Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate closed conformation</rdfs:label>
