@@ -299,7 +299,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
         <obo:IAO_0000115>A protein conformation that is realized in the formation of hydrogen bonds between the partially negative oxygen atom and partially positive nitrogen atom in the polypeptide backbone of amino acids and the specific 3-dimensional structure that results.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 29262225</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:29262225</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -1720,7 +1720,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by an open channel pore and movement of sodium ions across the cell membrane.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:39:48Z</dc:date>
         <rdfs:label xml:lang="en">open and activated voltage-gated sodium channel subunit alpha conformation</rdfs:label>
     </owl:Class>
@@ -1739,7 +1739,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A portion of an amino acid chain that is self-stabilizing and can fold independently to the rest of the amino acid chain.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:7020376</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:51:36Z</dc:date>
         <rdfs:label xml:lang="en">protein domain</rdfs:label>
     </owl:Class>
@@ -1752,7 +1752,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000103"/>
         <obo:IAO_0000115>A protein domain found in the voltage-gated sodium channel subunit alpha.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:51:51Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel domain</rdfs:label>
     </owl:Class>
@@ -1816,7 +1816,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:15Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop open conformation</rdfs:label>
     </owl:Class>
@@ -1828,7 +1828,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000098"/>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-13T18:58:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop closed conformation</rdfs:label>
     </owl:Class>
@@ -1957,7 +1957,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by an open channel pore and closure of the sodium ion channel inactivation gate resulting in no sodium ion movement across the membrane.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T15:17:06Z</dc:date>
         <rdfs:label xml:lang="en">open and inactivated voltage-gated sodium channel subunit alpha conformation</rdfs:label>
     </owl:Class>
@@ -1970,7 +1970,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000117"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformation that is realized by closure of the channel pore preventing movement of sodium ions.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T15:17:16Z</dc:date>
         <rdfs:label xml:lang="en">closed voltage-gated sodium channel subunit alpha conformation</rdfs:label>
     </owl:Class>
@@ -1989,7 +1989,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A portion of an amino acid chain that has realized a protein secondary structure conformation.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID: 29262225</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-04T18:06:22Z</dc:date>
         <oboInOwl:hasExactSynonym>secondary structure element</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">protein secondary structure element</rdfs:label>
@@ -2003,7 +2003,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
         <obo:IAO_0000115>A protein conformation of the voltage-gated sodium channed subunit alpha that is realized in the arrangement of protein domain and secondary structure elements.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-09T21:13:22Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformation</rdfs:label>
     </owl:Class>
@@ -2358,7 +2358,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116"/>
         <obo:IAO_0000115>A right handed protein helix that is formed when each backbone N-H group hydrogen bonds to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID: 35722863</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:29:31Z</dc:date>
         <rdfs:label xml:lang="en">alpha helix</rdfs:label>
@@ -2429,7 +2429,7 @@
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-25T23:09:44Z</dc:date>
-        <rdfs:label xml:lang="en">sodium ion channel alpha helix 4</rdfs:label>
+        <rdfs:label xml:lang="en">voltage-gated sodium ion channel alpha helix 4</rdfs:label>
     </owl:Class>
     
 
@@ -2501,7 +2501,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
         <obo:IAO_0000115>A protein-containing complex conformational change that involves the voltage-gated sodium channel.</obo:IAO_0000115>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-09T22:40:54Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel complex conformational change</rdfs:label>
     </owl:Class>
@@ -2529,7 +2529,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes a closed conformation to an open and activated conformation and involves a sodium ion channel alpha helix 4 outward rotation and happens during membrane depolarization during action potential.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:25:37Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from closed to open and activated</rdfs:label>
     </owl:Class>
@@ -2542,7 +2542,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000126"/>
         <obo:IAO_0000115>A protein subunit conformational change involving the voltage-gated sodium channel subunit alpha.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T22:54:04Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change</rdfs:label>
     </owl:Class>
@@ -2570,7 +2570,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes an open and activated conformation to an open and inactivated conformation and involves the closure of the sodium ion channel inactivation gate.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-11T18:56:54Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from open and activated to open and inactivated</rdfs:label>
     </owl:Class>
@@ -2598,7 +2598,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that changes an open and inactivated conformation to a closed conformation and involves a sodium ion channel alpha helix 4 inward rotation and happens during membrane repolarization.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-11T19:01:53Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha conformational change from open and inactivated to closed</rdfs:label>
     </owl:Class>
@@ -2611,7 +2611,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000087"/>
         <obo:IAO_0000115>A voltage-gated sodium channel inactivation gate conformation that is realized by an open voltage-gated sodium channel P loop.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:10:29Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate open conformation</rdfs:label>
     </owl:Class>
@@ -2624,7 +2624,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000087"/>
         <obo:IAO_0000115>A voltage-gated sodium channel inactivation gate conformation that is realized by a closed voltage-gated sodium channel P loop with no movement of sodium ions across the cell membrane.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:10:36Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel inactivation gate closed conformation</rdfs:label>
     </owl:Class>
@@ -2637,7 +2637,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that involves a change in the conformation of the inactivation gate from the open conformation to the closed conformation.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:16:55Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha inactivation gate conformational change from open to closed</rdfs:label>
     </owl:Class>
@@ -2650,7 +2650,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000141"/>
         <obo:IAO_0000115>A voltage-gated sodium channel subunit alpha conformational change that involves a change in the conformation of the inactivation gate from the closed conformation to the open conformation.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-14T22:17:08Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel subunit alpha inactivation gate conformational change from closed to open</rdfs:label>
     </owl:Class>
@@ -2663,7 +2663,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000127"/>
         <obo:IAO_0000115>A protein secondary structure conformational change involving the voltage-gated sodium channel P loop.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:22473783</obo:IAO_0000119>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morgan Mitchell</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T00:07:39Z</dc:date>
         <rdfs:label xml:lang="en">voltage-gated sodium channel P loop conformational change</rdfs:label>
     </owl:Class>
@@ -2697,7 +2697,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
         <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a rotated alpha helix 4 leading to an open channel pore and is found in a cell with a depolarized membrane potential.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:07:15Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 depolarized form</rdfs:label>
     </owl:Class>
@@ -2731,7 +2731,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000105"/>
         <obo:IAO_0000115>A voltage-gated sodium channel domain 1 that has a non-rotated alpha helix 4 leading to a closed channel pore and is found in a cell with a polarized membrane potential.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620097</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-9990-8331"/>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T18:08:16Z</dc:date>
         <rdfs:label>voltage-gated sodium channel domain 1 polarized form</rdfs:label>
     </owl:Class>
