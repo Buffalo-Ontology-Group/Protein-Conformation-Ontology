@@ -662,11 +662,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
-<<<<<<< Updated upstream
         <obo:IAO_0000115>A protein helix conformationn that is realized by a coiled conformation turning in a clockwise, right handed screw which contains L-amino acids.</obo:IAO_0000115>
-=======
-        <obo:IAO_0000115>A protein helix conformation that is realized by a coiled conformation turning in a clockwise, right handed screw which contains L-amino acids.</obo:IAO_0000115>
->>>>>>> Stashed changes
         <obo:IAO_0000119>PMID:19807085</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001116</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
