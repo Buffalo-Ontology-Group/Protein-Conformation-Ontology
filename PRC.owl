@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/PRC.owl#"
      xml:base="http://purl.obolibrary.org/obo/PRC.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,10 +10,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:terms2="http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/PRC.owl">
@@ -20,9 +23,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-07/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2022-02-07/ro.owl"/>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
-        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:title>Protein Conformation Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     </owl:Ontology>
@@ -265,6 +268,56 @@
         <obo:IAO_0000115>A material entity that minimally consists of a protein.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-01T23:01:23Z</dc:date>
         <rdfs:label xml:lang="en">protein-containing material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl#beta_helix_conformation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#beta_helix_conformation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
+        <obo:IAO_0000115 xml:lang="en">A protein helix conformation that is realized by the formation of a coil structure by parallel beta sheets, and where each beta sheet forms a face of the helix.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">beta helix conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl#left-handedness_of_a_helix -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#left-handedness_of_a_helix">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in a protein secondary structure element that has realized a protein helix conformation, and where the angle between one turn of the helix and the other has negative slope in respect to a cartesian x-axis cutting perpendicularly to the helix&apos;s axis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">left-handedness of a helix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl#right-handedness_of_a_helix -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#right-handedness_of_a_helix">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in a protein secondary structure element that has realized a protein helix conformation, and where the angle between one turn of the helix and the other has negative slope in respect to a cartesian x-axis cutting perpendicularly to the helix&apos;s axis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">right-handedness of a helix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl#2-faces_beta_helix_conformation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#2-faces_beta_helix_conformation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl#beta_helix_conformation"/>
+        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with 2 faces.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">2-faces beta helix conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl#3-faces_beta_helix_conformation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#3-faces_beta_helix_conformation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl#beta_helix_conformation"/>
+        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with 3 faces.</obo:IAO_0000115>
+        <rdfs:label>3-faces beta helix conformation</rdfs:label>
     </owl:Class>
     
 
