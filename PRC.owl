@@ -1746,7 +1746,7 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1996,7 +1996,7 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001035"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2741,7 +2741,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000088"/>
         <obo:IAO_0000115>A protein tertiary structure conformation that is realized by the folding of the epidermal growth factor receptor domain II hairpin loop buried between amino acids 569 and 572 in the extracellular epidermal growth factor receptor domain IV.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/12620237/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620237</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:03:24Z</dc:date>
         <rdfs:label xml:lang="en">tethered extracellular epidermal growth factor receptor domain conformation</rdfs:label>
@@ -2754,7 +2754,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001012"/>
         <obo:IAO_0000115>A protein quaternary structure conformation that is realized through the interaction of an epidermal growth factor receptor-ligand with an extracellular epidermal growth factor receptor domain III.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/12620237/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620237</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:06:27Z</dc:date>
         <rdfs:label xml:lang="en">epidermal growth factor receptor with bound ligand conformation</rdfs:label>
@@ -2767,7 +2767,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000088"/>
         <obo:IAO_0000115>A protein tertiary structure conformation that is realized by the folding of the extracellular epidermal growth factor receptor domains I and II via a rotation of 130˚ to bring them closer to extracellular epidermal growth factor receptor domain III in respect to an epidermal growth factor receptor in the default tethered extracellular epidermal growth factor receptor domain conformation. As a result, the epidermal growth factor receptor domain II hairpin loop is exposed.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/12620237/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620237</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:12:30Z</dc:date>
         <rdfs:label xml:lang="en">activated extracellular epidermal growth factor receptor domain conformation</rdfs:label>
@@ -2780,7 +2780,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity that is part of extracellular epidermal growth factor receptor domain II, and that stretches from amminoacid 240 to 260 and realizes a beta-hairpin motif conformation.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/12620237/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12620237</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T01:42:12Z</dc:date>
         <rdfs:label xml:lang="en">epidermal growth factor receptor domain II hairpin loop</rdfs:label>
@@ -2793,7 +2793,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001012"/>
         <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor subunits that have realized an activated extracellular epidermal growth factor receptor domain conformation when the epidermal growth factor receptor domain II hairpin loop of each binds to the hairpin loop contact area (globule) of the other.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/12297050/</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:12297050</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:21:56Z</dc:date>
         <rdfs:label xml:lang="en">extracellular dimeric epidermal growth factor receptor domain conformation</rdfs:label>
@@ -2806,7 +2806,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001012"/>
         <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor tyrosine kinase domains when one interacts with the other, and one has role the activator tyrosine kinase domain role and the other has role receiver tyrosine kinase domain role.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:25:33Z</dc:date>
         <rdfs:label xml:lang="en">tyrosine kinase domain asymmetric dimer conformation</rdfs:label>
@@ -2819,7 +2819,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000088"/>
         <obo:IAO_0000115>A protein tertiary structure conformation that is realized by an epidermal growth factor receptor tyrosine kinase domain through folding of the alpha C helix into an &quot;in&quot; position, i.e. pointing inside the domain itself.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:28:29Z</dc:date>
         <rdfs:label xml:lang="en">active tyrosine kinase domain conformation</rdfs:label>
@@ -2832,7 +2832,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000088"/>
         <obo:IAO_0000115>A protein tertiary structure conformation that is realized by an epidermal growth factor receptor tyrosine kinase domain through folding of the alpha C helix into an &quot;out&quot; position, i.e. pointing outside the domain.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:29:40Z</dc:date>
         <rdfs:label xml:lang="en">inactive tyrosine kinase domain conformation</rdfs:label>
@@ -2868,9 +2868,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001011"/>
-        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with 2 faces.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with two faces.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T22:51:27Z</dc:date>
+        <oboInOwl:hasExactSynonym>two-faced beta helix conformation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">2-faced beta helix conformation</rdfs:label>
     </owl:Class>
     
@@ -2880,9 +2881,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001011"/>
-        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with 3 faces.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A beta helix conformation that is realized by the formation by parallel beta sheets of a coil structure with three faces.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T22:52:34Z</dc:date>
+        <oboInOwl:hasExactSynonym>three-faced beta helix conformation</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">3-faced beta helix conformation</rdfs:label>
     </owl:Class>
     
@@ -2931,7 +2933,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001022"/>
         <obo:IAO_0000115>Extracellular epidermal growth factor receptor domain that stretches from amino acid 1 to 165 of an epidermal growth factor receptor and that comprises six turns of a beta helix, capped at each end by a turn of an alpha helix.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:00:25Z</dc:date>
         <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain I</rdfs:label>
@@ -2944,7 +2946,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001022"/>
         <obo:IAO_0000115>Extracellular epidermal growth factor receptor domain that stretches from amino acid 166 to 310 of an epidermal growth factor receptor, and that includes four disulfide-bonds in a type 1 module conformation and three disulfide-bonds in a type 2 module conformation in this order: type 2, type1, type 1, type 2, type 1, type 1, type 2. In addition, it includes a beta-hairpin motif.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:05:17Z</dc:date>
         <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain II</rdfs:label>
@@ -2957,7 +2959,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001022"/>
         <obo:IAO_0000115>Extracellular epidermal growth factor receptor domain that stretches from amino acid 311 to 480 of an EGFR and that includes six turns of a beta helix, capped at each end by a turn of an alpha helix.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:06:29Z</dc:date>
         <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain III</rdfs:label>
@@ -2970,7 +2972,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001022"/>
         <obo:IAO_0000115>Extracellular epidermal growth factor receptor domain that stretches from amino acid 481 to 620 of an epidermal growth factor receptor, and that includes four disulfide-bonds in a type 1 module and three disulfide-bonds in a type 2 module in this order: type 2, type1, type 1, type 2, type 1, type 1, type 2. In addition, it includes a realized beta-hairpin motif conformation.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:07:43Z</dc:date>
         <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain IV</rdfs:label>
@@ -2983,7 +2985,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001017"/>
         <obo:IAO_0000115>Any epidermal growth factor receptor domain that is found outside the cell membrane. The four extracellular domains of epidermal growth factor receptor include amino acids 1 to 620.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T01:58:54Z</dc:date>
         <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain</rdfs:label>
@@ -2996,7 +2998,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001027"/>
         <obo:IAO_0000115>Intracellular epidermal growth factor receptor domain that crosses the cell membrane and stretches from amino acid 620 to 643 and that comprises a realized alpha helix conformation.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:13:07Z</dc:date>
         <rdfs:label xml:lang="en">transmembrane helix domain</rdfs:label>
@@ -3009,7 +3011,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001027"/>
         <obo:IAO_0000115>Intracellular epidermal growth factor receptor domain that stretches from amino acid 643 to 685 of an epidermal growth factor receptor and that comprises a realized alpha helix conformation.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:12:25Z</dc:date>
         <rdfs:label xml:lang="en">juxtamembrane epidermal growth factor receptor domain</rdfs:label>
@@ -3022,7 +3024,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001027"/>
         <obo:IAO_0000115>Intracellular epidermal growth factor receptor domain that stretches from amino acid 685 to 953 of an epidermal growth factor receptor. In its N-terminus it comprises three realized beta sheets conformations and a alpha-C helix. In its C-terminus area, it comprises nine realized alpha helix conformations.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:11:46Z</dc:date>
         <rdfs:label>epidermal growth factor receptor tyrosine kinase domain</rdfs:label>
@@ -3035,7 +3037,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001027"/>
         <obo:IAO_0000115>Intracellular epidermal growth factor receptor domain that stretches from amino acid 953 to 1186 of an epidermal growth factor receptor, that has part five phosphorylation sites and is largely unstructured.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:10:03Z</dc:date>
         <rdfs:label xml:lang="en">epidermal growth factor receptor carboxyl tail domain</rdfs:label>
@@ -3048,7 +3050,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001017"/>
         <obo:IAO_0000115>Epidermal growth factor receptor domain that is found inside the cell membrane, and that stretches from amino acid 620 to 1186. It has part a transmembrane helix domain, a juxtamembrane epidermal growth factor receptor domain, a epidermal growth factor receptor tyrosine kinase domain and a epidermal growth factor receptor carboxyl tail domain.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970421/#:~:text=The%20epidermal%20growth%20factor%20receptor%20(EGFR)%20is%20often%20considered%20the,and%20ErbB4%2FHER4%20(Fig.</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:24691965</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-19T02:08:31Z</dc:date>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T01:47:46Z</dc:date>
@@ -3072,8 +3074,8 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is part of an extracellular growth factor receptor domain II and that stretches from amminoacid 229-239, 262-278, 282-288 .</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034"/>
+        <obo:IAO_0000115>A protein regional feature that is part of an extracellular growth factor receptor domain II and that stretches from amminoacid 229-239, 262-278, 282-288.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T01:57:51Z</dc:date>
         <rdfs:label xml:lang="en">hairpin loop contact area sub-domain</rdfs:label>
@@ -3084,8 +3086,8 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is part of an epidermal growth factor receptor tyrosine kinase domain N-terminus area, and that has realized an alpha helix conformation.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000132"/>
+        <obo:IAO_0000115>An alpha helix that is part of an epidermal growth factor receptor tyrosine kinase domain n-terminus region, and that has realized an alpha helix conformation.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/16777603/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T22:23:17Z</dc:date>
@@ -3097,8 +3099,8 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is part of an epidermal growth factor receptor tyrosine kinase domain C-terminus area, that is located at its end and that has realized an alpha helix conformation.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000132"/>
+        <obo:IAO_0000115>An alpha helix that is part of an epidermal growth factor receptor tyrosine kinase domain c-terminus region, that is located at its end and that has realized an alpha helix conformation.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/16777603/</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T22:24:27Z</dc:date>
@@ -3107,26 +3109,62 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001032 -->
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is found at the start of an amino acid chain or domain, near the amine NH2 group.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <obo:IAO_0000115>A portion of an amino acid chain identified by its location in the full amino acid chain.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T22:26:42Z</dc:date>
-        <rdfs:label xml:lang="en">N-terminus area</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-30T19:40:03Z</dc:date>
+        <rdfs:label xml:lang="en">protein regional feature</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001033 -->
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001035 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is found at the end of an amino acid chain or domain, near the carboxyl COOH group.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
+        <obo:IAO_0000115>Any portion of an amino acid chain that has realized a distinct conformation.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T22:27:51Z</dc:date>
-        <rdfs:label xml:lang="en">C-terminus area</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-30T19:43:15Z</dc:date>
+        <rdfs:label xml:lang="en">protein structural feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034"/>
+        <obo:IAO_0000115>Any portion of a transmembrane protein that is found on the extracellular side of the plasma membrane.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-30T20:09:01Z</dc:date>
+        <rdfs:label xml:lang="en">extracellular region of transmembrane protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034"/>
+        <obo:IAO_0000115>A protein regional feature that includes the C-terminal amino acid of that feature.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-30T20:10:49Z</dc:date>
+        <rdfs:label xml:lang="en">c-terminal region of protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034"/>
+        <obo:IAO_0000115>A protein regional feature that includes the C-terminal amino acid of that feature.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-04T00:26:20Z</dc:date>
+        <rdfs:label>n-terminal region of protein</rdfs:label>
     </owl:Class>
     
 
