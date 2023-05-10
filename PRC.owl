@@ -383,6 +383,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003"/>
         <obo:IAO_0000115>A beta sheet conformation that is realized by beta sheets in which two antiparallel beta strands are linked by a short loop of residues.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.chemeurope.com/en/encyclopedia/Structural_motif.html</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:33389765</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:29:28Z</dc:date>
         <rdfs:label xml:lang="en">beta-hairpin motif conformation</rdfs:label>
@@ -660,7 +661,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
-        <obo:IAO_0000115>A protein helix conformation that is realized by a coiled conformation turning in an anticlockwise, left handed screw which contains D-amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein helix conformation that is realized by a coiled conformation turning in an anticlockwise, left handed screw.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:15740737</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001115</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -675,7 +676,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000026"/>
-        <obo:IAO_0000115>A protein helix conformation that is realized by a coiled conformation turning in a clockwise, right handed screw which contains L-amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein helix conformation that is realized by a coiled conformation turning in a clockwise, right handed screw.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:19807085</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/SO_0001116</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
@@ -690,7 +691,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000028"/>
-        <obo:IAO_0000115>A right handed protein helix conformation that is realized by each backbone N-H group hydrogen bonded to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
+        <obo:IAO_0000115>A right handed protein helix conformation formed by a sequence of L-amino acids that is realized by each backbone N-H group hydrogen bonded to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-06T01:21:07Z</dc:date>
@@ -2377,7 +2378,7 @@
         <obo:IAO_0000119>PMID:35722863</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-16T11:29:31Z</dc:date>
-        <rdfs:label xml:lang="en">alpha helix</rdfs:label>
+        <rdfs:label xml:lang="en">right handed alpha helix</rdfs:label>
     </owl:Class>
     
 
@@ -2691,7 +2692,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000027"/>
-        <obo:IAO_0000115>A left handed protein helix conformation that is realized by each backbone N-H group hydrogen bonded to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
+        <obo:IAO_0000115>A left handed protein helix conformation formed by a sequence of D-amino acids that is realized by each backbone N-H group hydrogen bonded to the C=O backbone group located four residues earlier.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:15740737</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-01T22:55:40Z</dc:date>
@@ -2778,8 +2779,8 @@
     <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity that is part of extracellular epidermal growth factor receptor domain II, and that stretches from amminoacid 240 to 260 and realizes a beta-hairpin motif conformation.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001039"/>
+        <obo:IAO_0000115>A beta-hairpin motif that is part of extracellular epidermal growth factor receptor domain II, and that stretches from amino acid 240 to 260.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:12620237</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T01:42:12Z</dc:date>
@@ -2898,7 +2899,7 @@
         <obo:IAO_0000119>https://www.researchgate.net/publication/294876100_Teaching_Helical_Chirality_with_a_Paper_Helicopter</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:01:57Z</dc:date>
-        <rdfs:label xml:lang="en">right-handedness of a helix</rdfs:label>
+        <rdfs:label xml:lang="en">right handedness of a helix</rdfs:label>
     </owl:Class>
     
 
@@ -2911,7 +2912,7 @@
         <obo:IAO_0000119>https://www.researchgate.net/publication/294876100_Teaching_Helical_Chirality_with_a_Paper_Helicopter</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-06T23:00:44Z</dc:date>
-        <rdfs:label xml:lang="en">left-handedness of a helix</rdfs:label>
+        <rdfs:label xml:lang="en">left handedness of a helix</rdfs:label>
     </owl:Class>
     
 
@@ -3075,7 +3076,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001034"/>
-        <obo:IAO_0000115>A protein regional feature that is part of an extracellular growth factor receptor domain II and that stretches from amminoacid 229-239, 262-278, 282-288.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein regional feature that is part of an extracellular growth factor receptor domain II and that stretches from amino acid 229-239, 262-278, 282-288.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-22T01:57:51Z</dc:date>
         <rdfs:label xml:lang="en">hairpin loop contact area sub-domain</rdfs:label>
@@ -3165,6 +3166,106 @@
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-04T00:26:20Z</dc:date>
         <rdfs:label>n-terminal region of protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000116"/>
+        <obo:IAO_0000115>A protein secondary structure element consisting of a stretch of amino acids linking two beta strand that has realized the beta hairpin motif conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T18:55:55Z</dc:date>
+        <rdfs:label xml:lang="en">beta-hairpin motif</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <obo:IAO_0000115>A protein-containing complex that is a dimer of epidermal growth factor receptor.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:35:46Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor dimer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two epidermal growth factor receptor tyrosine kinase domains that together have realized a tyrosine kinase domain asymmetric dimer conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:36:48Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor tyrosine kinase dimer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two expidermal growth factor receptors that together have realized an external dimeric epidermal growth factor receptor domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:38:26Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor extracellular dimer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000006933"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor that has realized an activated extracellular epidermal growth factor receptor domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:40:53Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">activated epidermal growth factor receptor monomer subunit</oboInOwl:hasExactSynonym>
+        <rdfs:label>epidermal growth factor receptor monomer subunit in extracellular activated conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR:000006933"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor that has realized a tethered extracellular epidermal growth factor receptor domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:42:37Z</dc:date>
+        <oboInOwl:hasExactSynonym>tethered extracellular epidermal growth factor receptor monomer subunit</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">epidermal growth factor receptor monomer subunit in extracellular tethered conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001025"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor tyrosine kinase domain that has realized an active tyrosine kinase domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:47:05Z</dc:date>
+        <oboInOwl:hasExactSynonym>activated epidermal growth factor receptor tyrosine kinase domain</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">epidermal growth factor receptor tyrosine kinase domain in active conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001025"/>
+        <obo:IAO_0000115>An epidermal growth factor receptor tyrosine kinase domain that has realized an inactive tyrosine kinase domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:48:10Z</dc:date>
+        <oboInOwl:hasExactSynonym>inactivated epidermal growth factor receptor tyrosine kinase domain</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">epidermal growth factor receptor tyrosine kinase domain in inactive conformation</rdfs:label>
     </owl:Class>
     
 
