@@ -119,6 +119,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0005515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T19:50:26Z</dc:date>
+        <rdfs:label>protein binding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
@@ -137,6 +148,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005515"/>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:02:22Z</dc:date>
+        <rdfs:label>protein dimerization activity</rdfs:label>
+    </owl:Class>
     
 
 
@@ -382,8 +404,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003"/>
         <obo:IAO_0000115>A beta sheet conformation that is realized by beta sheets in which two antiparallel beta strands are linked by a short loop of residues.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.chemeurope.com/en/encyclopedia/Structural_motif.html</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:33389765</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.chemeurope.com/en/encyclopedia/Structural_motif.html</obo:IAO_0000119>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-02T01:29:28Z</dc:date>
         <rdfs:label xml:lang="en">beta-hairpin motif conformation</rdfs:label>
@@ -3266,6 +3288,114 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-09T19:48:10Z</dc:date>
         <oboInOwl:hasExactSynonym>inactivated epidermal growth factor receptor tyrosine kinase domain</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">epidermal growth factor receptor tyrosine kinase domain in inactive conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005515"/>
+        <obo:IAO_0000115>A ligand binding conformational change of an epidermal growth factor receptor thaat realizes an epidermal growth factor receptor with bound ligand quaternary structure conformation, where an epidermal growth factor receptor ligand binds to the extracellular epidermal growth factor receptor domain III, and that precedes an epidermal growth factor receptor activation conformational change.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T19:51:05Z</dc:date>
+        <rdfs:label xml:lang="en">epidermal growth factor receptor ligand binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
+        <obo:IAO_0000115>A dimerization activity where two epidermal growth factor receptors adopt an extracellular dimeric epidermal growth factor receptor domain conformation, consisting in the binding of the epidermal growth factor receptor domain II hairpin loop of each epidermal growth factor receptor to the hairpin loop contact area sub-domain of the other.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:03:04Z</dc:date>
+        <rdfs:label xml:lang="en">extracellular epidermal growth factor receptor domain dimerization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
+        <obo:IAO_0000115>A dimerization activity where two epidermal growth factor receptor tyrosine kinase domains adopt a tyrosine kinase domain asymmetric dimer conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:04:25Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor tyrosine kinase domain dimerization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
+        <obo:IAO_0000115>A dimerization activity where two epidermal growth factor receptors adopt a dimeric epidermal growth factor receptor domain conformation, consisting in an extracellular epidermal growth factor receptor domain dimerization and an epidermal growth factor receptor tyrosine kinase domain dimerization.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:05:32Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor dimerization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
+        <obo:IAO_0000115>A dimerization activity of an epidermal growth factor receptor tyrosine kinase domain that has realized an epidermal growth factor receptor tyrosine kinase  asymmetric dimer conformation, and that consists in the epidermal growth factor receptor tyrosine kinase domain that plays the activator tyrosine kinase domain role having its alpha H helix interact with the alpha C helix of the epidermal growth factor receptor tyrosine kinase domain that plays the receiver tyrosine kinase domain role. This conformational change precedes an alpha C helix rotation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:26:29Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor tyrosine kinase domain dimeric activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
+        <obo:IAO_0000115>A protein-containing complex conformational change of an epidermal growth factor receptor from a realized tethered extracellular epidermal growth factor receptor domain conformation to a realized activated extracellular epidermal growth factor receptor domain conformation, consiting in a 130˚ rotation of the extracellular epidermal growth factor receptor domain I and II closer to the extracellular epidermal growth factor receptor domain III.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:28:44Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor activation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000128"/>
+        <obo:IAO_0000115>An alpha helix rotation conformational change of an epidermal growth factor receptor tyrosine kinase domain from a realized inactive tyrosine kinase domain conformation to a realized active tyrosine kinase domain conformation, consiting in a rotation of the alpha C helix from an &quot;out&quot; position, i.e. pointing outside the epidermal growth factor receptor tyrosine kinase domain, to an &quot;in&quot; position, i.e. pointing inside the epidermal growth factor receptor tyrosine kinase domain itself.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:27:22Z</dc:date>
+        <rdfs:label xml:lang="en">alpha C helix rotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>An activator tyrosine kinase domain role is a role borne by an epidermal growth factor receptor tyrosine kinase domain that has a realized a tyrosine kinase domain asymmetric dimer conformation together with another epidermal growth factor receptor tyrosine kinase domain, and that has furthermore realized an inactive tyrosine kinase domain conformation.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:30:00Z</dc:date>
+        <rdfs:label xml:lang="en">activator tyrosine kinase domain domain role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A receiver tyrosine kinase domain role is a role borne by an epidermal growth factor receptor tyrosine kinase domain that has a realized a tyrosine kinase domain asymmetric dimer conformation with another epidermal growth factor receptor tyrosine kinase domain, and that will furthermore realize an active tyrosine kinase domain after an alpha C helix rotation conformational change occurs.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:30:46Z</dc:date>
+        <rdfs:label>receiver tyrosine kinase domain domain role</rdfs:label>
     </owl:Class>
     
 
