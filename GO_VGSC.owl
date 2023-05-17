@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go.owl#"
-     xml:base="http://purl.obolibrary.org/obo/go.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/jn0chkub.owl#"
+     xml:base="http://ontofox.hegroup.org/jn0chkub.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-07/go.owl"/>
-    </owl:Ontology>
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/jn0chkub.owl"/>
     
 
 
@@ -22,98 +21,121 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label>definition</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label>has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label>has_narrow_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
-
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
         <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
-
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label>term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label>term tracker item</rdfs:label>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref>IAO:0000233</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand>term_tracker_item</oboInOwl:shorthand>
+        <oboInOwl:id>term_tracker_item</oboInOwl:id>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
+        <rdfs:label>consider</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>part of</rdfs:label>
+        <oboInOwl:id>part_of</oboInOwl:id>
+        <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>has part</rdfs:label>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand>has_part</oboInOwl:shorthand>
+        <oboInOwl:hasDbXref>BFO:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:id>has_part</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:ObjectProperty>
     
 
 
@@ -128,234 +150,1242 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0001518 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001518">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034706"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
-        <obo:IAO_0000115>A sodium channel in a cell membrane whose opening is governed by the membrane potential.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>NIF_Subcellular:sao785001660</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>voltage gated sodium channel complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>voltage-dependent sodium channel complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>voltage-sensitive sodium channel complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0001518</oboInOwl:id>
-        <rdfs:label>voltage-gated sodium channel complex</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
+        <rdfs:label>molecular_function</rdfs:label>
+        <rdfs:comment>Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code &#39;no data&#39; (ND), is used to indicate this. Despite its name, this is not a type of &#39;function&#39; in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.</rdfs:comment>
+        <oboInOwl:id>GO:0003674</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>molecular function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>GO:0005554</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0001518"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A sodium channel in a cell membrane whose opening is governed by the membrane potential.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824">
+        <rdfs:label>catalytic activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0003824</oboInOwl:id>
+        <oboInOwl:hasDbXref>Wikipedia:Enzyme</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>enzyme activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004842">
+        <rdfs:label>ubiquitin-protein transferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019787"/>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3781009</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ubiquitin protein-ligase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-182986</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1912386</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-68712</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5693108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174057</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2186785</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ubiquitin-conjugating enzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5483238</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5668454</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-918224</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9645414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-182993</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG_REACTION:R03876</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-205118</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5667107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5205682</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2187368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5684250</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0004842</oboInOwl:id>
+        <oboInOwl:hasAlternativeId>GO:0004840</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0004841</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5667111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9013974</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-201425</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-183036</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-173542</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ubiquitin protein ligase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-936942</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1980074</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-975118</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3249386</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5652009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2213017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9793444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2169050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9750946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1918095</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1918092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5362412</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3134946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-983156</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1980118</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-69598</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9628444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5668534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-211734</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-983153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9796387</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-183051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2769007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-202453</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-4332236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9793679</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y --&gt; Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8948709</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2172172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5675470</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2186747</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3780995</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9817362</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3000335</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-983140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1852623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5610745</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5357757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5610742</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2730904</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-183084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-209063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1253282</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9701000</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ubiquitin ligase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-183089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5607756</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5610746</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>anaphase-promoting complex activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5607757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3134804</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5655170</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-180597</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-446877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9758604</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2179276</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2900765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169405</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169406</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8956106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2682349</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1977296</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-264444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-179417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-451418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-936412</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-173545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-75824</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ubiquitin conjugating enzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3797226</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5660753</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-870449</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-975147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-168915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9014342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5607725</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-400267</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5607728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5691108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174159</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9013069</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-936986</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>E2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-741386</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>E3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1234163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9793485</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1363331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1358792</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1358790</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1912357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-3788724</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9645394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-450358</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1358789</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169398</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2737728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169395</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1169394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-187575</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9815507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-202534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-180540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9796626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9796346</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1234172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9688831</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004872">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0038023"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005488">
+        <rdfs:label>binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <oboInOwl:hasDbXref>Wikipedia:Binding_(molecular)</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0005488</oboInOwl:id>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term &#39;receptor binding ; GO:0005102&#39; and its children.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>ligand</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005515">
+        <rdfs:label>protein binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005488"/>
+        <oboInOwl:hasExactSynonym>protein amino acid binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>GO:0045308</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115>Binding to a protein.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>GO:0001948</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>GO:0005515</oboInOwl:id>
+        <oboInOwl:hasNarrowSynonym>glycoprotein binding</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:label>cellular_component</rdfs:label>
+        <rdfs:comment>Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code &#39;no data&#39; (ND), is used to indicate this.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>cellular component</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome).</obo:IAO_0000115>
+        <oboInOwl:id>GO:0005575</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>subcellular entity</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasAlternativeId>GO:0008372</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>NIF_Subcellular:sao1337158144</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>cell or subcellular entity</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cellular component</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>subcellular entity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GO:0005575</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
-        <rdfs:comment>Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code &apos;no data&apos; (ND), is used to indicate this.</rdfs:comment>
-        <rdfs:label>cellular_component</rdfs:label>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NIF_Subcellular:sao1337158144</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>subcellular entity</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NIF_Subcellular:nlx_subcell_100315</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0005622 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005622">
+        <rdfs:label>intracellular anatomical structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/17776</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>internal to cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005622</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>nucleocytoplasm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>protoplasm</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>protoplast</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Intracellular</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>intracellular</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
+        <rdfs:label>nucleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043231"/>
+        <oboInOwl:hasNarrowSynonym>horsetail nucleus</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_nucleus</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cell nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1702920020</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell&#39;s chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0005634</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005886">
+        <rdfs:label>plasma membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0071944"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasNarrowSynonym>integral to plasma membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>cell membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>plasmalemma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>plasma membrane lipid bilayer</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasBroadSynonym>juxtamembrane</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_membrane</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1663586795</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>cellular membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>inner endospore membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>cytoplasmic membrane</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>GO:0005904</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0005887</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>GO:0005886</oboInOwl:id>
+        <oboInOwl:hasNarrowSynonym>bacterial inner membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>integral component of plasma membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:label>biological_process</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/24968</obo:IAO_0000233>
+        <oboInOwl:hasAlternativeId>GO:0044699</oboInOwl:hasAlternativeId>
+        <rdfs:comment>Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &#39;no data&#39; (ND), is used to indicate this.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>GO:0007582</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym>single-organism process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:creation_date>2012-09-19T15:05:24Z</oboInOwl:creation_date>
+        <oboInOwl:id>GO:0008150</oboInOwl:id>
+        <obo:IAO_0000115>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>biological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>GO:0000004</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym>single organism process</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>Wikipedia:Biological_process</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016020">
+        <rdfs:label>membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <oboInOwl:hasDbXref>Wikipedia:Transmembrane_protein</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>whole membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>transmembrane</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasNarrowSynonym>region of membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>membrane region</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasAlternativeId>GO:0098805</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A lipid bilayer along with all the proteins and protein complexes embedded in it and attached to it.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>integral to membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasAlternativeId>GO:0098589</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0016021</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>GO:0016020</oboInOwl:id>
+        <oboInOwl:creation_date>2014-03-06T11:37:54Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>Wikipedia:Biological_membrane</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>integral component of membrane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016301">
+        <rdfs:label>kinase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016772"/>
+        <oboInOwl:hasExactSynonym>phosphokinase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0016301</oboInOwl:id>
+        <obo:IAO_0000115>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</obo:IAO_0000115>
+        <rdfs:comment>Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.</rdfs:comment>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6788867</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6788855</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016740">
+        <rdfs:label>transferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+        <oboInOwl:hasDbXref>EC:2.-.-.-</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0016740</oboInOwl:id>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1483186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1483089</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5668414</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8868783</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016746">
+        <rdfs:label>acyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016740"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/20486</obo:IAO_0000233>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-159431</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-192312</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>GO:0008415</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>Catalysis of the transfer of an acyl group from one compound (donor) to another (acceptor).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EC:2.3.-.-</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>transferase activity, transferring acyl groups</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6792572</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8858298</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0016746</oboInOwl:id>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-193491</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016755">
+        <rdfs:label>aminoacyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016746"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0140096"/>
+        <oboInOwl:hasDbXref>EC:2.3.2.-</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Catalysis of the transfer of an amino-acyl group from one compound (donor) to another (acceptor).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0016755</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>transferase activity, transferring amino-acyl groups</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016772">
+        <rdfs:label>transferase activity, transferring phosphorus-containing groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016740"/>
+        <rdfs:comment>Note that this term encompasses all kinase activities, as well as activities that transfer other phosphorus-containing groups such as diphosphate or nucleotides.</rdfs:comment>
+        <oboInOwl:hasDbXref>EC:2.7.-.-</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>Catalysis of the transfer of a phosphorus-containing group from one compound (donor) to another (acceptor).</obo:IAO_0000115>
+        <oboInOwl:id>GO:0016772</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016874">
+        <rdfs:label>ligase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/19380</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>synthetase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EC:6.-.-.-</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0016874</oboInOwl:id>
+        <obo:IAO_0000115>Catalysis of the joining of two molecules, or two groups within a single molecule, using the energy from the hydrolysis of ATP, a similar triphosphate, or a pH gradient.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016879">
+        <rdfs:label>ligase activity, forming carbon-nitrogen bonds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016874"/>
+        <oboInOwl:hasNarrowSynonym>other carbon-nitrogen ligase activity</oboInOwl:hasNarrowSynonym>
+        <obo:IAO_0000115>Catalysis of the joining of two molecules, or two groups within a single molecule, via a carbon-nitrogen bond, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0016879</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>EC:6.3.-.-</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016881">
+        <rdfs:label>acid-amino acid ligase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016879"/>
+        <obo:IAO_0000115>Catalysis of the ligation of an acid to an amino acid via a carbon-nitrogen bond, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>peptide synthase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EC:6.3.2.-</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0016881</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019787">
+        <rdfs:label>ubiquitin-like protein transferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016755"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/24697</obo:IAO_0000233>
+        <oboInOwl:hasNarrowSynonym>ubiquitin-like-protein ligase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>E2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>small conjugating protein transferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasNarrowSynonym>small protein conjugating enzyme activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasAlternativeId>GO:0008639</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>ubiquitin-like conjugating enzyme activity</oboInOwl:hasNarrowSynonym>
+        <obo:IAO_0000115>Catalysis of the transfer of a ubiquitin-like from one protein to another via the reaction X-ULP + Y --&gt; Y-ULP + X, where both X-ULP and Y-ULP are covalent linkages. ULP represents a ubiquitin-like protein.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>small conjugating protein ligase activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-688137</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5678490</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>GO:0008640</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>GO:0019787</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>E3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030054">
+        <rdfs:label>cell junction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>Wikipedia:Cell_junction</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0030054</oboInOwl:id>
+        <obo:IAO_0000115>A cellular component that forms a specialized region of connection between two or more cells, or between a cell and the extracellular matrix, or between two membrane-bound components of a cell, such as flagella.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030424">
+        <rdfs:label>axon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043005"/>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1770195789</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Axon</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0030424</oboInOwl:id>
+        <obo:IAO_0000115>The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030425">
+        <rdfs:label>dendrite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0097447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1211023249</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0030425</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>Wikipedia:Dendrite</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A neuron projection that has a short, tapering, morphology. Dendrites receive and integrate signals from other neurons or from sensory stimuli, and conduct nerve impulses towards the axon or the cell body. In most neurons, the impulse is conveyed from dendrites to axon via the cell body, but in some types of unipolar neuron, the impulse does not travel via the cell body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0036477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036477">
+        <rdfs:label>somatodendritic compartment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <oboInOwl:created_by>bf</oboInOwl:created_by>
+        <oboInOwl:creation_date>2014-07-24T10:06:19Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0036477</oboInOwl:id>
+        <obo:IAO_0000115>The region of a neuron that includes the cell body (cell soma) and dendrite(s), but excludes the axon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0038023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0038023">
+        <rdfs:label>signaling receptor activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060089"/>
+        <obo:IAO_0000115>Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response.</obo:IAO_0000115>
+        <oboInOwl:created_by>bf</oboInOwl:created_by>
+        <oboInOwl:id>GO:0038023</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>signalling receptor activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>receptor activity involved in signal transduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>receptor activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasAlternativeId>GO:0019041</oboInOwl:hasAlternativeId>
+        <oboInOwl:creation_date>2011-08-01T02:45:27Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasAlternativeId>GO:0004872</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042734">
+        <rdfs:label>presynaptic membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0097060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A specialized area of membrane of the axon terminal that faces the plasma membrane of the neuron or muscle fiber with which the axon terminal establishes a synaptic junction; many synaptic junctions exhibit structural presynaptic characteristics, such as conical, electron-dense internal protrusions, that distinguish it from the remainder of the axon plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>presynaptic plasma membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pre-synaptic membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0042734</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042995">
+        <rdfs:label>cell projection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <oboInOwl:hasBroadSynonym>cell process</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000115>A prolongation or process extending from a cell, e.g. a flagellum or axon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cellular projection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0042995</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasBroadSynonym>cellular process</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043005">
+        <rdfs:label>neuron projection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0120025"/>
+        <oboInOwl:hasNarrowSynonym>neurite</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>nerve fiber</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>neuron protrusion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A prolongation or process extending from a nerve cell, e.g. an axon or dendrite.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao867568886</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>neuronal cell projection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0043005</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>neuron process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043226">
+        <rdfs:label>organelle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <obo:IAO_0000115>Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Wikipedia:Organelle</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0043226</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1539965131</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043227">
+        <rdfs:label>membrane-bounded organelle</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043226"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>membrane-enclosed organelle</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao414196390</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0043227</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043229">
+        <rdfs:label>intracellular organelle</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043226"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005622"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005622"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0043229</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043231">
+        <rdfs:label>intracellular membrane-bounded organelle</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043227"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005622"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043227"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043229"/>
+        <obo:IAO_0000115>Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>intracellular membrane-enclosed organelle</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0043231</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044456">
+        <rdfs:label>obsolete synapse part</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <oboInOwl:consider>GO:0045202</oboInOwl:consider>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>OBSOLETE. Any constituent part of a synapse, the junction between a nerve fiber of one neuron and another neuron or muscle fiber or glial cell.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>synaptic component</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao1784069613</oboInOwl:hasDbXref>
+        <oboInOwl:id>GO:0044456</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045202">
+        <rdfs:label>synapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030054"/>
+        <oboInOwl:hasNarrowSynonym>mixed synapse</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>GO:0045202</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>electrotonic synapse</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao914572699</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Chemical_synapse</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The junction between an axon of one neuron and a dendrite of another neuron, a muscle fiber or a glial cell. As the axon approaches the synapse it enlarges into a specialized structure, the presynaptic terminal bouton, which contains mitochondria and synaptic vesicles. At the tip of the terminal bouton is the presynaptic membrane; facing it, and separated from it by a minute cleft (the synaptic cleft) is a specialized area of membrane on the receiving cell, known as the postsynaptic membrane. In response to the arrival of nerve impulses, the presynaptic terminal bouton secretes molecules of neurotransmitters into the synaptic cleft. These diffuse across the cleft and transmit the signal to the postsynaptic membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>synaptic junction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045211">
+        <rdfs:label>postsynaptic membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0097060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098794"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>post-synaptic membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A specialized area of membrane facing the presynaptic membrane on the tip of the nerve ending and separated from it by a minute cleft (the synaptic cleft). Neurotransmitters cross the synaptic cleft and transmit the signal to the postsynaptic membrane.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0045211</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046983">
+        <rdfs:label>protein dimerization activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005515"/>
+        <obo:IAO_0000115>The formation of a protein dimer, a macromolecular structure consists of two noncovalently associated identical or nonidentical subunits.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0046983</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060089">
+        <rdfs:label>molecular transducer activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115>A compound molecular function in which an effector function is controlled by one or more regulatory components.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0060089</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071944">
+        <rdfs:label>cell periphery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <oboInOwl:id>GO:0071944</oboInOwl:id>
+        <oboInOwl:creation_date>2010-10-04T01:51:47Z</oboInOwl:creation_date>
+        <oboInOwl:created_by>mah</oboInOwl:created_by>
+        <obo:IAO_0000115>The broad region around and including the plasma membrane of a cell,  encompassing the cell cortex (inside the cell), the plasma membrane, and any external encapsulating structures.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097060">
+        <rdfs:label>synaptic membrane</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0098590"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098590"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by>pr</oboInOwl:created_by>
+        <oboInOwl:id>GO:0097060</oboInOwl:id>
+        <obo:IAO_0000115>A specialized area of membrane on either the presynaptic or the postsynaptic side of a synapse, the junction between a nerve fiber of one neuron and another neuron or muscle fiber or glial cell.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2011-06-07T11:22:09Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097447">
+        <rdfs:label>dendritic tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0036477"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasDbXref>NIF_Subcellular:sao172297168</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The entire complement of dendrites for a neuron, consisting of each primary dendrite and all its branches.</obo:IAO_0000115>
+        <oboInOwl:id>GO:0097447</oboInOwl:id>
+        <oboInOwl:created_by>pr</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-12-17T12:31:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098590">
+        <rdfs:label>plasma membrane region</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016020"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005886"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005886"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Note that this term should not be used for direct manual annotation as it should always be possible to choose a more specific subclass.</rdfs:comment>
+        <oboInOwl:id>GO:0098590</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>region of plasma membrane</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A membrane that is a (regional) part of the plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-03-06T11:55:32Z</oboInOwl:creation_date>
+        <oboInOwl:created_by>dos</oboInOwl:created_by>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098793">
+        <rdfs:label>presynapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0098793</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>presynaptic terminal</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The part of a synapse that is part of the presynaptic cell.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098794">
+        <rdfs:label>postsynapse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0098794</oboInOwl:id>
+        <obo:IAO_0000115>The part of a synapse that is part of the post-synaptic cell.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0110165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0110165">
+        <rdfs:label>cellular anatomical entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <obo:IAO_0000115>A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId>GO:0043234</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym>macromolecular complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>macromolecule complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>protein containing complex</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein-protein complex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:creation_date>2019-08-12T18:01:37Z</oboInOwl:creation_date>
+        <obo:IAO_0000115>A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0032991</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_agr"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_mouse"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
-        <rdfs:comment>A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.</rdfs:comment>
-        <rdfs:label>protein-containing complex</rdfs:label>
+        <oboInOwl:created_by>kmv</oboInOwl:created_by>
+        <oboInOwl:id>GO:0110165</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0034702 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0120025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902495"/>
-        <obo:IAO_0000115>A protein complex that spans a membrane and forms a water-filled channel across the phospholipid bilayer allowing selective ion transport down its electrochemical gradient.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0120025">
+        <rdfs:label>plasma membrane bounded cell projection</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042995"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098590"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042995"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/13193</obo:IAO_0000233>
+        <oboInOwl:id>GO:0120025</oboInOwl:id>
+        <oboInOwl:creation_date>2017-03-21T17:26:07Z</oboInOwl:creation_date>
+        <obo:IAO_0000115>A prolongation or process extending from a cell and that is bounded by plasma membrane, e.g. a cilium, lamellipodium, or axon.</obo:IAO_0000115>
+        <oboInOwl:created_by>krc</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0034702</oboInOwl:id>
-        <rdfs:label>ion channel complex</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034702"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A protein complex that spans a membrane and forms a water-filled channel across the phospholipid bilayer allowing selective ion transport down its electrochemical gradient.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:071673706X</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0034703 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0140096 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034703">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034702"/>
-        <obo:IAO_0000115>An ion channel complex through which cations pass.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0034703</oboInOwl:id>
-        <rdfs:label>cation channel complex</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140096">
+        <rdfs:label>catalytic activity, acting on a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/14225</obo:IAO_0000233>
+        <oboInOwl:creation_date>2017-09-14T10:32:59Z</oboInOwl:creation_date>
+        <oboInOwl:id>GO:0140096</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>Catalytic activity that acts to modify a protein.</obo:IAO_0000115>
+        <oboInOwl:created_by>pg</oboInOwl:created_by>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034703"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An ion channel complex through which cations pass.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0034706 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034703"/>
-        <obo:IAO_0000115>An ion channel complex through which sodium ions pass.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0034706</oboInOwl:id>
-        <rdfs:label>sodium channel complex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034706"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An ion channel complex through which sodium ions pass.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0098796 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
-        <obo:IAO_0000115>Any protein complex that is part of a membrane.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0098796</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
-        <rdfs:label>membrane protein complex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Any protein complex that is part of a membrane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0098797 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098797">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
-        <obo:IAO_0000115>Any protein complex that is part of the plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0098797</oboInOwl:id>
-        <rdfs:label>plasma membrane protein complex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Any protein complex that is part of the plasma membrane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_1902495 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902495">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1990351"/>
-        <obo:IAO_0000115>A transmembrane protein complex which enables the transfer of a substance from one side of a membrane to the other.</obo:IAO_0000115>
-        <oboInOwl:created_by>bhm</oboInOwl:created_by>
-        <oboInOwl:creation_date>2013-11-13T16:23:04Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:1902495</oboInOwl:id>
-        <rdfs:label>transmembrane transporter complex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1902495"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A transmembrane protein complex which enables the transfer of a substance from one side of a membrane to the other.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:bhm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:18024586</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_1990351 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990351">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
-        <obo:IAO_0000115>A protein complex facilitating transport of molecules (proteins, small molecules, nucleic acids) into, out of or within a cell, or between cells.</obo:IAO_0000115>
-        <oboInOwl:created_by>bhm</oboInOwl:created_by>
-        <oboInOwl:creation_date>2014-03-26T14:23:27Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:1990351</oboInOwl:id>
-        <rdfs:comment>An example of this is GTR1 in human (UniProt symbol P11166) in PMID:15449578 (inferred from direct assay).</rdfs:comment>
-        <rdfs:label>transporter complex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1990351"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A protein complex facilitating transport of molecules (proteins, small molecules, nucleic acids) into, out of or within a cell, or between cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:bhm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:15449578</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/go.owl">
+        <dc:title>Gene Ontology</dc:title>
+        <owl:versionInfo>2023-05-10</owl:versionInfo>
+        <dc:description>The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.</dc:description>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
 
