@@ -19,8 +19,8 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/PRC.owl">
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/jn0chkub.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-07/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2022-02-07/ro.owl"/>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
@@ -119,6 +119,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0001518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001518"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005515 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005515">
@@ -140,14 +146,14 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR:000018263"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+    </owl:Class>
     
 
 
