@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl" uri="http://purl.obolibrary.org/obo/ro.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/caro/releases/2023-03-15/caro.owl" uri="http://purl.obolibrary.org/obo/caro.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/external/GO_VGSC.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/Protein-Conformation-Ontology/main/GO_VGSC.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/jn0chkub.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/Protein-Conformation-Ontology/main/GO_VGSC.owl"/>
+</catalog>
