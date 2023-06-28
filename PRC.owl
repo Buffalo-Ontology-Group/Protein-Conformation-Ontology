@@ -301,13 +301,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
-        <obo:IAO_0000115>A protein conformation that is realized in the formation of hydrogen bonds between the partially negative oxygen atoms and partially positive nitrogen atoms in one or more amino acid chains and the specific 3-dimensional structure that results. Beta sheets in particular may involve the same or separate amino acid chains, whereas most other secondary structures involve only a single amino acid chain.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein conformation that is realized in the formation of hydrogen bonds between the partially negative oxygen atoms and partially positive nitrogen atoms in the backbones of one or more amino acid chains and the specific 3-dimensional structure that results. Beta sheets in particular may involve the same or separate amino acid chains, whereas most other secondary structures involve only a single amino acid chain.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:29262225</obo:IAO_0000119>
+        <dc:creator></dc:creator>
         <dc:creator>https://orcid.org/0000-0001-9990-8331 &quot;Alexander D. Diehl&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-7245-3450 &quot;Lauren M. Wishnie&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
-        <dc:creator></dc:creator>
-        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-01T18:49:42Z</dc:date>
         <rdfs:label xml:lang="en">protein secondary structure conformation</rdfs:label>
     </owl:Class>
@@ -1566,8 +1566,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000001"/>
         <obo:IAO_0000115>A protein conformation that is realized in the arranging of secondary structure elements of a single amino acid chain and that results in a 3-dimensional shape.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.uniprot.org/help/domain</obo:IAO_0000119>
-        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-04-05T15:19:28Z</dc:date>
         <rdfs:label xml:lang="en">protein tertiary structure conformation</rdfs:label>
     </owl:Class>
@@ -3494,6 +3494,34 @@
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-22T10:12:57Z</dc:date>
         <rdfs:label xml:lang="en">dimeric epidermal growth factor receptor conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003"/>
+        <obo:IAO_0000115>A beta sheet conformation that is realized when two beta sheets are compacted together by hydrophobic interactions.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:23548073</obo:IAO_0000119>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-28T14:05:53Z</dc:date>
+        <rdfs:label xml:lang="en">beta sandwich conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000003"/>
+        <obo:IAO_0000115>A beta sheet conformation that is realized when a beta sheet bends into a ring-shaped structure. This synthetic conformation may mimic the structure of amyloid peptides in pathological diseases including Alzheimer’s disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:23548073</obo:IAO_0000119>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:creator>https://orcid.org/0000-0002-9318-128X &quot;Morgan L. Mitchell&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-28T14:40:51Z</dc:date>
+        <rdfs:label xml:lang="en">macrocyclic beta sheet conformation</rdfs:label>
     </owl:Class>
     
 
