@@ -206,6 +206,44 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000060270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000060270">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001056"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
+        <obo:IAO_0000115>A plasma membrane protein complex that is formed through the binding of a membrane-bound epidermal growth factor receptor, signal peptide removed form to its ligand epidermal growth factor.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T16:09:54Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor, EGF-bound form monomer</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000060270"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plasma membrane protein complex that is formed through the binding of a membrane-bound epidermal growth factor receptor, signal peptide removed form to its ligand epidermal growth factor.</owl:annotatedTarget>
+        <rdfs:comment>[PRO:GDC, PRO:DAN]</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000060271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000060271">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
+        <obo:IAO_0000115>A plasma membrane protein complex that is formed through the dimerization of epidermal growth factor receptor, EGF-bound form monomers.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T16:14:20Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor, EGF-bound form dimer</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000060271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plasma membrane protein complex that is formed through the dimerization of epidermal growth factor receptor, EGF-bound form monomers.</owl:annotatedTarget>
+        <rdfs:comment>[PRO:GDC, PRO:DAN]</rdfs:comment>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO:0086011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO:0086011">
@@ -3482,6 +3520,18 @@
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:30:46Z</dc:date>
         <rdfs:label>receiver tyrosine kinase domain domain role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRC.owl/PRC_0001056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
+        <obo:IAO_0000115>A plasma membrane protein-containing complex formed through the binding of an epidermal growth factor receptor, signal peptide removed form to its ligand epidermal growth factor.</obo:IAO_0000115>
+        <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T16:07:42Z</dc:date>
+        <rdfs:label>epidermal growth factor receptor-EGF bound form</rdfs:label>
     </owl:Class>
     
 
