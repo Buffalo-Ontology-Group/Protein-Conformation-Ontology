@@ -331,7 +331,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#PRC_0001060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001012"/>
-        <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor subunits that realize a common structure together.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor subunits that form a protein complex together.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-15T22:03:24Z</dc:date>
         <rdfs:label>extracellular dimeric epidermal growth factor receptor domain conformation</rdfs:label>
@@ -343,7 +343,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#PRC_1061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001012"/>
-        <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor subunits that realize a common structure together, in which the epidermal growth factor receptor domain II hairpin loop of each is still buried into its own epidermal growth factor monomer.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein quaternary structure conformation that is realized by two epidermal growth factor receptor subunits that form a protein complex together, in which the epidermal growth factor receptor domain II hairpin loop of each is still buried into its own epidermal growth factor monomer.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-15T22:04:32Z</dc:date>
         <rdfs:label>extracellular pre-rotation dimeric epidermal growth factor receptor domain conformation</rdfs:label>
@@ -355,7 +355,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#PRC_1062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040"/>
-        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two expidermal growth factor receptors that together have realized an extracellular pre-rotation dimeric epidermal growth factor receptor domain conformation  (or extracellular dimeric epidermal growth factor receptor domain conformation)</obo:IAO_0000115>
+        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two epidermal growth factor receptors that together have realized an extracellular pre-rotation dimeric epidermal growth factor receptor domain conformation (or extracellular dimeric epidermal growth factor receptor domain conformation).</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-15T22:08:00Z</dc:date>
         <rdfs:label>epidermal growth factor receptor extracellular inactivated dimer</rdfs:label>
@@ -3507,7 +3507,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
-        <obo:IAO_0000115>A dimerization activity of an epidermal growth factor receptor tyrosine kinase domain that has realized an epidermal growth factor receptor tyrosine kinase asymmetric dimer conformation, that is part of an epidermal growth factor receptor signaling via ligand-induced dimerization and that consists in the epidermal growth factor receptor tyrosine kinase domain that plays the activator tyrosine kinase domain role having its alpha H helix interact with the alpha C helix of the epidermal growth factor receptor tyrosine kinase domain that plays the receiver tyrosine kinase domain role. This conformational change precedes an alpha C helix rotation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A dimerization activity of an epidermal growth factor receptor tyrosine kinase domain that has realized an epidermal growth factor receptor tyrosine kinase asymmetric dimer conformation, that is part of epidermal growth factor receptor signaling via ligand-induced dimerization; this dimerization involves the epidermal growth factor receptor tyrosine kinase domain that plays the activator tyrosine kinase domain role having its alpha H helix interact with the alpha C helix of the epidermal growth factor receptor tyrosine kinase domain that plays the receiver tyrosine kinase domain role. This dimerization precedes an alpha C helix rotation.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:26:29Z</dc:date>
         <rdfs:label>epidermal growth factor receptor dimerization-induced tyrosine kinase domain dimeric activation</rdfs:label>
@@ -3534,10 +3534,10 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0000131"/>
-        <obo:IAO_0000115>A protein-containing complex conformational change of an epidermal growth factor receptor, consiting in a 130˚ rotation of the extracellular epidermal growth factor receptor domain I and II closer to the extracellular epidermal growth factor receptor domain III and that will produce dimerization of two EGFR monomers.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein-containing complex conformational change of an epidermal growth factor receptor, consisting of a 130˚ rotation of the extracellular epidermal growth factor receptor domain I and II towards the extracellular epidermal growth factor receptor domain III, and that will result in dimerization of two EGFR monomers.</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-17T20:28:44Z</dc:date>
-        <rdfs:label>pidermal growth factor receptor activation-related conformational change</rdfs:label>
+        <rdfs:label>epidermal growth factor receptor activation-related conformational change</rdfs:label>
     </owl:Class>
     
 
