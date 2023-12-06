@@ -403,7 +403,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRC.owl#PRC_1062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRC.owl/PRC_0001040"/>
-        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two expidermal growth factor receptors that together have realized an extracellular pre-rotation dimeric epidermal growth factor receptor domain conformation  (or extracellular dimeric epidermal growth factor receptor domain conformation).</obo:IAO_0000115>
+        <obo:IAO_0000115>An epidermal growth factor receptor dimer that contains two epidermal growth factor receptors that together have realized an extracellular pre-rotation dimeric epidermal growth factor receptor domain conformation (or extracellular dimeric epidermal growth factor receptor domain conformation).</obo:IAO_0000115>
         <dc:creator>https://orcid.org/0000-0002-3600-6506 &quot;Giacomo De Colle&quot;</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-15T22:08:00Z</dc:date>
         <rdfs:label>epidermal growth factor receptor extracellular inactive dimer</rdfs:label>
